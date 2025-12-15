@@ -1,0 +1,196 @@
+/* ================================
+   Root variables
+   ================================ */
+:root {
+  /* Brand */
+  --kyx-color-brand-primary: #032152;
+  --kyx-color-brand-primary-dark: #021732;
+  --kyx-color-accent: #29c7e0;
+
+  /* Backgrounds */
+  --kyx-color-bg-page: #f8f9fa;
+  --kyx-color-bg-card: #ffffff;
+
+  /* Text */
+  --kyx-color-text-main: #333333;
+  --kyx-color-text-muted: #6c757d;
+  --kyx-color-text-muted-light: #8e8e8e;
+  --kyx-color-text-extra-muted: #9aa0a6;
+  --kyx-color-text-extra-muted-hover: #7c8288;
+  --kyx-color-text-disclaimer: #b5b5b5;
+  --kyx-color-text-label: #6c7278;
+
+  /* Inputs */
+  --kyx-color-input-placeholder: #c4c4c4;
+
+  /* Effects */
+  --kyx-shadow-focus-accent: 0 0 0 0.25rem rgba(41, 199, 224, 0.25);
+}
+
+/* ================================
+   Base
+   ================================ */
+body {
+  background-color: var(--kyx-color-bg-page);
+  font-family: "Open Sans", sans-serif !important;
+}
+
+/* ================================
+   Layout containers
+   ================================ */
+.page-wrapper {
+  min-height: 100vh;
+  display: block;
+}
+
+.page-card {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: var(--kyx-color-bg-card);
+  padding: 2rem 1.75rem;
+}
+
+/* ================================
+   Responsive adjustments
+   ================================ */
+@media (min-width: 768px) {
+  .signup-card {
+    padding: 2.5rem 2.25rem;
+  }
+}
+
+/* ================================
+   Brand elements
+   ================================ */
+.brand-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+/* ================================
+   Typography helpers
+   ================================ */
+.disclaimer-text {
+  font-size: 0.65rem;
+  color: var(--kyx-color-text-disclaimer);
+  line-height: 1.25;
+  text-align: center;
+}
+
+.oneclick-text {
+  font-size: 0.75rem;
+  color: var(--kyx-color-text-muted-light);
+  text-align: center;
+}
+
+.kyxstart-text {
+  color: var(--kyx-color-brand-primary);
+  font-weight: 700;
+}
+
+.kyx-field-label {
+  color: var(--kyx-color-text-label);
+}
+
+/* ================================
+   Buttons and links
+   ================================ */
+.kyx-btn-primary {
+  background-color: var(--kyx-color-brand-primary) !important;
+  border-color: var(--kyx-color-brand-primary) !important;
+  color: #ffffff !important;
+}
+
+.kyx-btn-primary:hover,
+.kyx-btn-primary:focus {
+  background-color: var(--kyx-color-brand-primary-dark) !important;
+  border-color: var(--kyx-color-brand-primary-dark) !important;
+  color: #ffffff !important;
+}
+
+.kyx-btn-primary:disabled,
+.kyx-btn-primary.disabled {
+  background-color: var(--kyx-color-brand-primary) !important;
+  border-color: var(--kyx-color-brand-primary) !important;
+  color: #ffffff !important;
+  opacity: 0.65 !important;
+}
+
+.kyx-btn-muted-link {
+  color: var(--kyx-color-text-extra-muted) !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+
+.kyx-btn-muted-link:hover,
+.kyx-btn-muted-link:focus {
+  color: var(--kyx-color-text-extra-muted-hover) !important;
+  text-decoration: none !important;
+}
+
+/* ================================
+   Inputs
+   ================================ */
+.kyx-phone-input {
+  height: 3.25rem !important;
+  font-size: 1.1rem !important;
+  padding: 0.75rem 1rem !important;
+}
+
+.kyx-phone-input::placeholder {
+  color: var(--kyx-color-input-placeholder) !important;
+}
+
+.kyx-otp-input {
+  letter-spacing: 0.45em;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.kyx-otp-input::placeholder {
+  letter-spacing: 0;
+}
+
+/* Common focus style */
+.kyx-focus-highlight:focus {
+  border-color: var(--kyx-color-accent) !important;
+  box-shadow: var(--kyx-shadow-focus-accent) !important;
+}
+
+/* ================================
+   Field rows
+   ================================ */
+.kyx-field-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 0.9rem;
+}
+
+.kyx-field-row label {
+  flex: 0 0 30%;
+  font-weight: 600;
+  text-align: left;
+  font-size: 0.95rem;
+  color: var(--kyx-color-text-main);
+}
+
+.kyx-field-row input {
+  flex: 1;
+  min-width: 0;
+  font-size: 1rem;
+}
+
+/* Very small screens */
+@media (max-width: 360px) {
+  .kyx-field-row label {
+    flex-basis: 35%;
+  }
+
+  .kyx-field-row {
+    gap: 6px;
+  }
+}

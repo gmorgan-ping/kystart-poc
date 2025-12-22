@@ -1,0 +1,292 @@
+:root {
+  /********************************************************
+    * COMPANY LOGO
+    *********************************************************/
+  --company-logo-img-url: url("https://gmorgan-ping.github.io/kyxstart-poc/themes/experian/images/logo.png");
+  --company-logo-max-height: 72px;
+
+  /********************************************************
+    * PAGE BACKGROUND 
+    *********************************************************/
+  --background-image-url: url("https://gmorgan-ping.github.io/kyxstart-poc/themes/experian/images/background.png");
+
+  /********************************************************
+    * CARD BODY
+    *********************************************************/
+  --card-background-color: rgb(255, 255, 255);
+  --card-shadow-color: rgba(184, 225, 255, .35);
+
+  /********************************************************
+    * BODY
+    *********************************************************/
+  --body-font-family: 'Montserrat', 'sans-serif';
+  --body-font-size: 0.935rem;
+
+  /********************************************************
+    * TEXT FONT COLORS
+    *********************************************************/
+
+  /*  PRIMARY FONT COLOR (RGB) */
+  --text-color-primary: 61, 69, 77;
+
+  /* HEADING FONT COLR (RBG) */
+  --heading-text-color: 61, 69, 77;
+
+  /*  MUTED TEXT ALPHA  */
+  --text-color-muted-alpha: 0.75;
+
+  /*  ERROR FONT COLOR  */
+  --text-color-error: rgb(163, 19, 0);
+
+  /********************************************************
+    * BUTTON ATTRIBUTES
+    *********************************************************/
+
+  /*  BUTTON FONT COLOR  */
+  --button-primary-text-color: rgb(255, 255, 255);
+
+  /*  BUTTON BACKGROUND COLOR (RGB)  */
+  --button-primary-background-color: 176, 23, 134;
+
+  /* LINK BUTTON FONT COLOR (RGB)  */
+  --link-button-primary-color: 123, 123, 123;
+
+  /* BUTTON BORDER RADIUS */
+  --button-primary-border-radius: 6px;
+
+  /*  BUTTON HOVER ALPHA  */
+  --button-hover-alpha: 0.70;
+
+  /*  BUTTON ACTIVE ALPHA  */
+  --button-active-alpha: 0.80;
+
+  /*  BUTTON DISABLED ALPHA  */
+  --button-disabled-alpha: 0.65;
+
+  --button-primary-disabled-background-color: 250, 233, 242;
+  --button-primary-disabled-text-color: 177, 22, 135;
+
+  /********************************************************
+     * FORM CONTROLS
+     *********************************************************/
+  --form-control-border-radius: 6px;
+  --card-body-border-radius: 6px;
+  --focus-highlight-color: 29, 81, 145;
+
+  /********************************************************
+    * ACTIVITY INDICATOR & BUTTON SPINNER COLOR
+    *********************************************************/
+
+  --activity-indicator-color: rgb(44, 152, 208);
+
+  --polling-indicator-color: rgb(44, 152, 208);
+
+  /********************************************************
+  * APPLYING TEXT COLOR - DO NOT CHANGE
+  *********************************************************/
+  /* H1,H2, H3, Body text color */
+  --bs-body-color: rgb(var(--text-color-primary)) !important;
+
+  /* Bootstrap expects this as an RGB triplet (no rgb()) */
+  --bs-danger-rgb: var(--text-color-error-rgb);
+}
+
+
+/********************************************************
+* CLASSES BELOW ARE DERIVED FROM VALUES ABOVE
+* DO NOT CHANGE UNLESS YOU HAVE CSS 'SKILLZ' :)
+*********************************************************/
+
+/* COMPANY LOGO */
+.end-user-nano div.card-body>img:first-child,
+.companyLogo {
+  content: var(--company-logo-img-url) !important;
+  height: var(--company-logo-max-height) !important;
+  width: auto !important;
+}
+
+/* BACKGROUND IMAGE */
+.end-user-nano div.bg-light {
+  background-image: var(--background-image-url);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* HEADING TEXT */
+.end-user-nano h1,
+.end-user-nano h2,
+.end-user-nano h3,
+.end-user-nano h4 {
+  color: rgb(var(--heading-text-color)) !important;
+}
+
+/* BODY FONT & COLOR */
+.end-user-nano .card-body {
+  font-family: var(--body-font-family) !important;
+  font-size: var(--body-font-size) !important;
+  color: rgb(var(--text-color-primary)) !important;
+  background-color: var(--card-background-color) !important;
+}
+
+/* MUTED PARAGRAPH */
+.end-user-nano p.text-muted {
+  color: rgba(var(--text-color-primary), var(--text-color-muted-alpha)) !important;
+}
+
+/* ERROR MESSAGE PARAGRAPH */
+.end-user-nano .card .text-danger {
+  color: var(--text-color-error) !important;
+}
+
+/* FORM CONTROL FONT COLOR */
+.end-user-nano .form-control,
+.end-user-nano .form-control:focus {
+  color: rgb(var(--text-color-primary)) !important;
+  border-radius: var(--form-control-border-radius) !important;
+}
+
+/* FORM CONTROL PLACEHOLDER FONT COLOR */
+.end-user-nano .form-floating input+label {
+  color: rgba(var(--text-color-primary), var(--text-color-muted-alpha)) !important;
+}
+
+/* FORM CONTROL HIGHLIGHT */
+.end-user-nano .form-control:focus {
+  border-color: rgba(var(--focus-highlight-color), .5) !important;
+  box-shadow: 0 0 0 0.25rem rgba(var(--focus-highlight-color), 0.25) !important;
+}
+
+/* PRIMARY BUTTON */
+.end-user-nano button.btn.btn-primary {
+  /* font colors */
+  --bs-btn-color: var(--button-primary-text-color) !important;
+  --bs-btn-hover-color: var(--button-primary-text-color) !important;
+
+  /* FIX: border color must be a real color value, not a raw RGB triplet */
+  --bs-btn-border-color: rgb(var(--button-primary-background-color)) !important;
+
+  /* backgrounds */
+  --bs-btn-bg: rgb(var(--button-primary-background-color)) !important;
+  --bs-btn-hover-bg: rgba(var(--button-primary-background-color), var(--button-hover-alpha)) !important;
+  --bs-btn-active-bg: rgba(var(--button-primary-background-color), var(--button-active-alpha)) !important;
+  --bs-btn-disabled-bg: rgba(var(--button-primary-background-color), var(--button-disabled-alpha)) !important;
+
+  /* FIX: keep radius across focus/active Bootstrap states */
+  --bs-btn-border-radius: var(--button-primary-border-radius) !important;
+
+  /* direct props (belt-and-suspenders) */
+  background-color: rgb(var(--button-primary-background-color)) !important;
+  border-color: rgb(var(--button-primary-background-color)) !important;
+  color: var(--button-primary-text-color) !important;
+  border-radius: var(--button-primary-border-radius) !important;
+}
+
+/* Belt-and-suspenders: explicitly keep radius on interactive states */
+.end-user-nano button.btn.btn-primary:focus,
+.end-user-nano button.btn.btn-primary:focus-visible,
+.end-user-nano button.btn.btn-primary:active,
+.end-user-nano button.btn.btn-primary.active {
+  border-radius: var(--button-primary-border-radius) !important;
+}
+
+.end-user-nano button.btn-primary:hover {
+  background-color: rgba(var(--button-primary-background-color), var(--button-hover-alpha)) !important;
+  border-color: rgba(var(--button-primary-background-color), var(--button-hover-alpha)) !important;
+  color: var(--button-primary-text-color) !important;
+}
+
+/* LINK BUTTON (hardened): prevent any filled/boxed styling on active/toggle/focus states */
+.end-user-nano .btn.btn-link {
+  /* text colors */
+  --bs-btn-color: rgb(var(--link-button-primary-color)) !important;
+  --bs-btn-hover-color: rgba(var(--link-button-primary-color), var(--button-hover-alpha)) !important;
+  --bs-btn-active-color: rgba(var(--link-button-primary-color), var(--button-active-alpha)) !important;
+  --bs-btn-disabled-color: rgba(var(--link-button-primary-color), var(--button-disabled-alpha)) !important;
+
+  /* force "link-like" visuals for all states */
+  --bs-btn-bg: transparent !important;
+  --bs-btn-border-color: transparent !important;
+
+  --bs-btn-hover-bg: transparent !important;
+  --bs-btn-hover-border-color: transparent !important;
+
+  --bs-btn-active-bg: transparent !important;
+  --bs-btn-active-border-color: transparent !important;
+
+  /* remove focus ring/box */
+  --bs-btn-focus-shadow-rgb: 0, 0, 0 !important;
+
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* ACTIVE / FOCUS STATES (covers click, .active class, and keyboard focus) */
+.end-user-nano .btn.btn-link:hover,
+.end-user-nano .btn.btn-link:active,
+.end-user-nano .btn.btn-link.active,
+.end-user-nano .btn.btn-link:focus,
+.end-user-nano .btn.btn-link:focus-visible {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* BOOTSTRAP TOGGLE BUTTON CASES (common cause of “filled” link buttons) */
+.end-user-nano .btn-check:checked+.btn.btn-link,
+.end-user-nano .btn-check:active+.btn.btn-link,
+.end-user-nano .btn-check:focus-visible+.btn.btn-link {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Optional: preserve a visible keyboard focus indicator without a box */
+.end-user-nano .btn.btn-link:focus-visible {
+  text-decoration: underline;
+}
+
+/* DISABLED BUTTON */
+.end-user-nano .btn:disabled,
+.end-user-nano .btn.disabled,
+.end-user-nano fieldset:disabled .btn {
+  color: rgb(var(--button-primary-disabled-text-color)) !important;
+  background-color: rgb(var(--button-primary-disabled-background-color)) !important;
+  border-color: rgb(var(--button-primary-disabled-background-color)) !important;
+}
+
+/* Ensure disabled link buttons still look like links (no filled background) */
+.end-user-nano .btn.btn-link:disabled,
+.end-user-nano .btn.btn-link.disabled {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+/* POLLING INDICATORS */
+.css-11k6vsm,
+.css-17zi2ag,
+.css-139roxj {
+  background-color: var(--polling-indicator-color) !important;
+}
+
+/* BUTTON ACTIVITY INDICATOR, PROGRESS SPINNER */
+.css-sw2ho0 {
+  --primary-color: var(--activity-indicator-color) !important;
+}
+
+/* PROGRESS SPINNER */
+.end-user-nano.spinner-color {
+  color: var(--polling-indicator-color) !important;
+}
+
+.end-user-nano div.card-body {
+  border-radius: var(--card-body-border-radius);
+}
+
+.end-user-nano div.card.shadow {
+  border-radius: var(--card-body-border-radius) !important;
+  box-shadow: 1px 1px 3px 1px var(--card-shadow-color) !important;
+}

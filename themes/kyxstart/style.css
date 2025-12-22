@@ -14,7 +14,7 @@
     * CARD BODY
     *********************************************************/
   --card-background-color: rgb(255, 255, 255);
-   --card-shadow-color: rgba(1, 32, 78, .35);
+  --card-shadow-color: rgba(1, 32, 78, .35);
 
   /********************************************************
     * BODY
@@ -237,7 +237,7 @@ fieldset:disabled .btn {
   border-radius: var(--card-body-border-radius);
 }
 
-.card.shadow {
+.end-user-nano .card.shadow {
   border-radius: var(--card-body-border-radius);
   box-shadow: 1px 1px 3px 1px var(--card-shadow-color) !important;
 }

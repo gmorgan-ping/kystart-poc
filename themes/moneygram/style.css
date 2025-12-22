@@ -71,7 +71,7 @@
      * FORM CONTROLS
      *********************************************************/
   --form-control-border-radius: 0px;
-  --card-body-border-radius: 0px;
+  --card-body-border-radius: 7px;
   --focus-highlight-color: 39, 123, 165;
 
   /********************************************************

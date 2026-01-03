@@ -189,7 +189,7 @@
 .end-user-nano button.btn.btn-primary:focus,
 .end-user-nano button.btn.btn-primary:focus-visible,
 .end-user-nano button.btn.btn-primary:active,
-.end-user-nano button.btn.btn-primary.active {
+.end-user-nano button.btn.btn-danger {
   border-radius: var(--button-primary-border-radius) !important;
 }
 

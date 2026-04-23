@@ -3,10 +3,10 @@
 ## Table of Contents
 
 - [Solution Overview](#solution-overview)
-- [PingOne Configuration Requirements](#pingone-configuration-requirements)
-- [Solution Customization](#solution-customization)
 - [Key Screens](#key-screens)
 - [Live Demo](#live-demo)
+- [PingOne Configuration Requirements](#pingone-configuration-requirements)
+- [Solution Customization](#solution-customization)
 - [DaVinci Flow Exports](#davinci-flow-exports)
 
 ## Solution Overview
@@ -22,6 +22,84 @@ When a user adds a new bank account or credit card, the flow uses KYXStart to as
 Once the user has added eligible financial accounts and at least one payee account, they can initiate a simulated transfer of funds. Before the transfer is completed, the flow can optionally perform a pre-verification step through KYXStart to reverify the source account if its last verification is older than a configured number of days. Additional details are provided in the flow configuration.
 
 Completed transfers can be viewed within the experience, along with the user and payee account details captured for the transaction.
+
+## Key Screens
+
+The following screenshots highlight the primary states and flows included in the KYXStart DaVinci demo.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="./images/01-signon.png"><img src="./images/01-signon.png" height="220" alt="Sign On" /></a><br/>
+      <sub><b>Sign On</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/02-registration.png"><img src="./images/02-registration.png" height="220" alt="User Registration" /></a><br/>
+      <sub><b>User Registration</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/03-test-user-selection.png"><img src="./images/03-test-user-selection.png" height="220" alt="Test User Selection" /></a><br/>
+      <sub><b>Test User Selection</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="./images/04-kyxstart-registration-prefill.png"><img src="./images/04-kyxstart-registration-prefill.png" height="220" alt="KYXStart Registration Prefill" /></a><br/>
+      <sub><b>KYXStart Registration Prefill</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/05-dashboard-landing.png"><img src="./images/05-dashboard-landing.png" height="220" alt="Dashboard Landing" /></a><br/>
+      <sub><b>Dashboard Landing</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/06-add-account.png"><img src="./images/06-add-account.png" height="220" alt="Add Account" /></a><br/>
+      <sub><b>Add Account</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="./images/07-add-account-verification.png"><img src="./images/07-add-account-verification.png" height="220" alt="Add Account Verification" /></a><br/>
+      <sub><b>Add Account Verification</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/08-failed-account-verification.png"><img src="./images/08-failed-account-verification.png" height="220" alt="Failed Verification" /></a><br/>
+      <sub><b>Failed Verification</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/09-view-account.png"><img src="./images/09-view-account.png" height="220" alt="View Account" /></a><br/>
+      <sub><b>View Account</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="./images/10-new-transfer.png"><img src="./images/10-new-transfer.png" height="220" alt="New Transfer" /></a><br/>
+      <sub><b>New Transfer</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/11-transfer-confirmation.png"><img src="./images/11-transfer-confirmation.png" height="220" alt="Transfer Confirmation" /></a><br/>
+      <sub><b>Transfer Confirmation</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./images/12-view-transfer.png"><img src="./images/12-view-transfer.png" height="220" alt="View Transfer" /></a><br/>
+      <sub><b>View Transfer</b></sub>
+    </td>
+  </tr>
+</table>
+
+
+## Live Demo
+
+The following links launch the live demo environment hosted in PingOne DaVinci. All themes provide the same experience — only the branding differs.
+
+> **Note:** Live demo availability is not guaranteed. The environment may be unavailable or reset without notice.
+
+| Brand Theme | Demo Link |
+|---|---|
+| KYXStart | [Launch KYXStart Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/73c9c3fd7df5dc772d817e27bbd27fbf/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
+| Experian | [Launch Experian Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/c17e09240a2b76d4d1b51bb2391b013a/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
+| MoneyGram | [Launch MoneyGram Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/90783591416d3c111d1400f806073ccf/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
+| PayPal | [Launch PayPal Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/9b5c1428109952e69eb5bcb0c99b22a3/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
+| Western Union | [Launch Western Union Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/552fffe16a9b61f8d86e84dcadc0e019/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
 
 ## PingOne Configuration Requirements
 
@@ -102,123 +180,6 @@ Several aspects of the solution can be customized directly within the outermost 
 
 - **Test bank and credit card accounts**  
   Test financial accounts used by the demo can also be updated. To modify the sample bank or credit card accounts, open the **KYXStart Dashboard** flow and use search to locate the **`Populate Test Accounts`** node. This is the first node within the **Add Account** teleport.
-
-## Key Screens
-
-The following screenshots highlight the primary states and flows included in the KYXStart DaVinci demo.
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="./images/01-signon.png">
-        <img src="./images/01-signon.png" alt="Sign On Screen" height="320" />
-      </a>
-      <br />
-      <em>Sign On</em>
-    </td>
-    <td align="center">
-      <a href="./images/02-registration.png">
-        <img src="./images/02-registration.png" alt="User Registration" height="320"  />
-      </a>
-      <br />
-      <em>User Registration</em>
-    </td>
-    <td align="center">
-      <a href="./images/03-test-user-selection.png">
-        <img src="./images/03-test-user-selection.png" alt="Test User Selection" height="320" />
-      </a>
-      <br />
-      <em>Test User Selection</em>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="3" align="center" >
-      <a href="./images/04-kyxstart-registration-prefill.png">
-        <img src="./images/04-kyxstart-registration-prefill.png" alt="Dashboard screen" height="320" />
-      </a>
-      <br />
-      <em>User Registration KYXStart Prefill</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="./images/05-dashboard-landing.png">
-        <img src="./images/05-dashboard-landing.png" alt="Dashboard Landing" height="320" />
-      </a>
-      <br />
-      <em>Dashboard Landing</em>
-    </td>
-    <td align="center">
-      <a href="./images/06-add-account.png">
-        <img src="./images/06-add-account.png" alt="Add Account" height="320"  />
-      </a>
-      <br />
-      <em>Add Account</em>
-    </td>
-    <td align="center">
-      <a href="./images/07-add-account-verification.png">
-        <img src="./images/07-add-account-verification.png" alt="Add Account Verification" height="320" />
-      </a>
-      <br />
-      <em>Add Account Verification</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="./images/08-failed-account-verification.png">
-        <img src="./images/08-failed-account-verification.png" alt="Failed Verification" height="320" />
-      </a>
-      <br />
-      <em>Failed Verification</em>
-    </td>
-    <td align="center">
-      <a href="./images/09-view-account.png">
-        <img src="./images/09-view-account.png" alt="View Account" height="320"  />
-      </a>
-      <br />
-      <em>View Account</em>
-    </td>
-    <td align="center">
-      <a href="./images/10-new-transfer.png">
-        <img src="./images/10-new-transfer.png" alt="New Transfer" height="320" />
-      </a>
-      <br />
-      <em>New Transfer</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="./images/11-transfer-confirmation.png">
-        <img src="./images/11-transfer-confirmation.png" alt="Transfer Confirmation" height="320" />
-      </a>
-      <br />
-      <em>Transfer Confirmation</em>
-    </td>
-    <td align="center">
-      <a href="./images/12-view-transfer.png">
-        <img src="./images/12-view-transfer.png" alt="View Transfer" height="320"  />
-      </a>
-      <br />
-      <em>View Transfer</em>
-    </td>
-    <td align="center">
-    </td>
-  </tr>
-</table>
-
-## Live Demo
-
-The following links launch the live demo environment hosted in PingOne DaVinci. All themes provide the same experience — only the branding differs.
-
-> **Note:** Live demo availability is not guaranteed. The environment may be unavailable or reset without notice.
-
-| Brand Theme | Demo Link |
-|---|---|
-| KYXStart | [Launch KYXStart Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/73c9c3fd7df5dc772d817e27bbd27fbf/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
-| Experian | [Launch Experian Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/c17e09240a2b76d4d1b51bb2391b013a/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
-| MoneyGram | [Launch MoneyGram Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/90783591416d3c111d1400f806073ccf/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
-| PayPal | [Launch PayPal Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/9b5c1428109952e69eb5bcb0c99b22a3/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
-| Western Union | [Launch Western Union Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/552fffe16a9b61f8d86e84dcadc0e019/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
 
 ## DaVinci Flow Exports
 

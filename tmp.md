@@ -1,0 +1,199 @@
+# KYXStart Prefill and KYP Solution Overview
+
+## Solution Overview
+
+This proof of concept showcases a simulated account management and money transfer experience built with DaVinci and KYXStart. It is intended for demonstration purposes only and should not be considered a production-ready financial services solution.
+
+The flow supports MFA-based sign-on, account recovery, and streamlined user registration using KYXStart Prefill. After authentication, users can add and manage their own financial accounts, including bank accounts and credit cards, and can also create and manage payee accounts. As part of the demo experience, users can also update or remove existing accounts.
+
+Depending on how the flow is configured, users may also be prompted during their first sign-on to complete a government document verification step. This optional check is described further in the flow configuration.
+
+When a user adds a new bank account or credit card, the flow uses KYXStart to assess the account’s verification status. Verification results are returned as **pass**, **partial**, or **fail**. Only accounts with a status of **pass** or **partial** can be added. The user is also shown the verification result along with human-readable reasons that explain the outcome.
+
+Once the user has added eligible financial accounts and at least one payee account, they can initiate a simulated transfer of funds. Before the transfer is completed, the flow can optionally perform a pre-verification step through KYXStart to reverify the source account if its last verification is older than a configured number of days. Additional details are provided in the flow configuration.
+
+Completed transfers can be viewed within the experience, along with the user and payee account details captured for the transaction.
+
+## PingOne Configuration Requirements
+
+To replicate this proof of concept in another PingOne tenant, a baseline PingOne configuration is required in addition to the DaVinci flows included in this repository.
+
+### Required Services
+
+The target tenant should have the following services enabled:
+
+- **PingOne**
+- **PingOne DaVinci**
+- **PingOne MFA**
+- **PingOne Verify** *(optional, only required if government document verification is enabled in the flow)*
+
+### Custom User Attributes
+
+The following custom user attributes are used by the solution and should be created in the target PingOne environment:
+
+- **dob**  
+  Stores the user’s date of birth.  
+  Type: `string`
+
+- **userPayees**  
+  Stores payee account data associated with the user.  
+  Type: `JSON`
+
+- **userAccounts**  
+  Stores financial account data associated with the user.  
+  Type: `JSON`
+
+- **verificationLevel**  
+  Stores the user’s verification source or level.  
+  Type: `string`  
+  Expected values include:
+  - `KYXSTART`
+  - `PINGONE` *(used when government document verification is completed through PingOne Verify)*
+
+- **verifiedDocumentData**  
+  Stores persisted government ID verification data when document verification is used.  
+  Type: `JSON`
+
+## Solution Customization
+
+Several aspects of the solution can be customized directly within the outermost DaVinci flow. These settings are defined in the first node, **Create Config Object**, and allow the demo to be adapted for different environments and use cases.
+
+### Configuration Properties
+
+- **companyName**  
+  Defines the company name displayed throughout the solution.
+
+- **companyLogo**  
+  Specifies the logo shown on solution forms and screens.
+
+- **enableRegistrationTestMode**  
+  Controls whether registration uses KYXStart test data or performs a live phone number lookup.  
+  This is set to `true` in the demo because KYXStart can verify against real phone numbers, and test mode provides sample users for registration scenarios.  
+  When set to `false`, the phone number entered during registration is verified using a live lookup.
+
+- **requiredVerificationLevel**  
+  Determines whether additional user verification is required after registration, once the user reaches the main dashboard.  
+  Supported values include:
+  - `PINGONE` — enforces a government document verification step using PingOne Verify
+  - `KYXSTART` — treats the verification completed during registration as sufficient
+
+- **enableTestAccounts**  
+  Controls whether users can select from sample bank accounts and credit cards during account onboarding.  
+  Because this solution is a proof of concept, this is typically set to `true` to make it easier to demonstrate different verification outcomes, including pass, partial, and fail scenarios.
+
+- **accountVerificationTTLDays**  
+  Defines how long an account verification result remains valid before the account must be reverified during a transfer.  
+  The pre-verification step compares the current date to the account’s last verification date.  
+  When set to `0`, the account is reverified for every transfer.
+  
+### Additional Notes
+
+- **Demo registration users**  
+  Additional demo users can be supported for registration scenarios, provided they have been configured in KYXStart. To add or modify these users, open the **KYXStart SignOn/Register** flow and review the second node, **`Populate Sample Users`**, which contains the current list of sample users.
+
+- **Test bank and credit card accounts**  
+  Test financial accounts used by the demo can also be updated. To modify the sample bank or credit card accounts, open the **KYXStart Dashboard** flow and use search to locate the **`Populate Test Accounts`** node. This is the first node within the **Add Account** teleport.
+
+## Key Screens
+
+The following screenshots highlight the primary states and flows included in the KYXStart DaVinci demo.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="./images/01-signon.png">
+        <img src="./images/01-signon.png" alt="Sign On Screen" height="320" />
+      </a>
+      <br />
+      <em>Sign On</em>
+    </td>
+    <td align="center">
+      <a href="./images/02-registration.png">
+        <img src="./images/02-registration.png" alt="User Registration" height="320"  />
+      </a>
+      <br />
+      <em>User Registration</em>
+    </td>
+    <td align="center">
+      <a href="./images/03-test-user-selection.png">
+        <img src="./images/03-test-user-selection.png" alt="Test User Selection" height="320" />
+      </a>
+      <br />
+      <em>Test User Selection</em>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" >
+      <a href="./images/04-kyxstart-registration-prefill.png">
+        <img src="./images/04-kyxstart-registration-prefill.png" alt="Dashboard screen" height="320" />
+      </a>
+      <br />
+      <em>User Registration KYXStart Prefill</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./images/05-dashboard-landing.png">
+        <img src="./images/05-dashboard-landing.png" alt="Dashboard Landing" height="320" />
+      </a>
+      <br />
+      <em>Dashboard Landing</em>
+    </td>
+    <td align="center">
+      <a href="./images/06-add-account.png">
+        <img src="./images/06-add-account.png" alt="Add Account" height="320"  />
+      </a>
+      <br />
+      <em>Add Account</em>
+    </td>
+    <td align="center">
+      <a href="./images/07-add-account-verification.png">
+        <img src="./images/07-add-account-verification.png" alt="Add Account Verification" height="320" />
+      </a>
+      <br />
+      <em>Add Account Verification</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./images/08-failed-account-verification.png">
+        <img src="./images/08-failed-account-verification.png" alt="Failed Verification" height="320" />
+      </a>
+      <br />
+      <em>Failed Verification</em>
+    </td>
+    <td align="center">
+      <a href="./images/09-view-account.png">
+        <img src="./images/09-view-account.png" alt="View Account" height="320"  />
+      </a>
+      <br />
+      <em>View Account</em>
+    </td>
+    <td align="center">
+      <a href="./images/10-new-transfer.png">
+        <img src="./images/10-new-transfer.png" alt="New Transfer" height="320" />
+      </a>
+      <br />
+      <em>New Transfer</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./images/11-transfer-confirmation.png">
+        <img src="./images/11-transfer-confirmation.png" alt="Transfer Confirmation" height="320" />
+      </a>
+      <br />
+      <em>Transfer Confirmation</em>
+    </td>
+    <td align="center">
+      <a href="./images/12-view-transfer.png">
+        <img src="./images/12-view-transfer.png" alt="View Transfer" height="320"  />
+      </a>
+      <br />
+      <em>View Transfer</em>
+    </td>
+    <td align="center">
+    </td>
+  </tr>
+</table>
+

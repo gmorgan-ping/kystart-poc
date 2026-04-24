@@ -101,6 +101,12 @@ The following links launch the live demo environment hosted in PingOne DaVinci. 
 | PayPal | [Launch PayPal Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/9b5c1428109952e69eb5bcb0c99b22a3/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
 | Western Union | [Launch Western Union Demo](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/552fffe16a9b61f8d86e84dcadc0e019/authorize?client_id=6aa3c8d87439e5c660364122addf15b8&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
 
+### Utility
+
+| | |
+|---|---|
+| Delete KYXStart Demo User | [Launch Delete User Flow](https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/policy/c9b988984a489b19cf242b759a81e864/authorize?client_id=dfd614a0ea8b5945b8caafeff45f4cb2&response_type=code&scope=openid&redirect_uri=https://auth.pingone.com/af8a50b1-d359-40bf-8a6f-86181d98f57d/davinci/testrp) |
+
 ## PingOne Configuration Requirements
 
 To replicate this proof of concept in another PingOne tenant, a baseline PingOne configuration is required in addition to the DaVinci flows included in this repository.
@@ -187,9 +193,15 @@ The following DaVinci flow exports are included in this repository. All flows pr
 
 | Brand Theme | Export File |
 |---|---|
-| Experian | [Experian Branding Export](./flows/Experian_Branding_Export_2026-04-23.json) |
-| KYXStart | [KYXStart Branding Export](./flows/KYXStart_Branding%20_Export_2026-04-23.json) |
-| MoneyGram | [MoneyGram Branding Export](./flows/Moneygram_Branding%20_Export_2026-04-23.json) |
-| PayPal | [PayPal Branding Export](./flows/Paypal_Branding%20_Export_2026-04-23.json) |
-| Western Union | [Western Union Branding Export](./flows/Western_Union%20Branding%20_Export_2026-04-23.json) |
+| Experian | [Experian Branding Export](./flows/Experian_Branding_Export_2026-04-24.json) |
+| MoneyGram | [MoneyGram Branding Export](./flows/Moneygram_Branding_Export_2026-04-24.json) |
+| PayPal | [PayPal Branding Export](./flows/Paypal_Branding_Export_2026-04-24.json) |
+| Western Union | [Western Union Branding Export](./flows/Western_Union_Branding_Export_2026-04-24.json) |
+| KYXStart | [KYXStart Branding Export](./flows/KYXStart_Branding_Export_2026-04-24.json) |
+
+### Utility Flows
+
+| Flow | Export File | Description |
+|---|---|---|
+| Delete KYXStart Demo User | [Delete PingOne KYXStart User](./flows/Delete_PingOne_KYXStart_User_Export_2026-04-24.json) | Removes a test user from PingOne so the demo can be restarted with a fresh registration. |
 

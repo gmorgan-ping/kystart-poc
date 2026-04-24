@@ -9,14 +9,14 @@
         "httpConnector",
         "functionsConnector"
       ],
-      "createdDate": 1776963031407,
+      "createdDate": 1776973966098,
       "currentVersion": 1,
       "customerId": "f3e47d945ae971a4b4142ec75012d155",
       "description": "",
       "flowStatus": "enabled",
       "isOutputSchemaSaved": false,
-      "name": "Moneygram Branding ",
-      "publishedVersion": 217,
+      "name": "Western Union Branding ",
+      "publishedVersion": 15,
       "settings": {
         "csp": "worker-src 'self' blob:; script-src 'self' https://cdn.jsdelivr.net https://code.jquery.com https://devsdk.singularkey.com http://cdnjs.cloudflare.com 'unsafe-inline' 'unsafe-eval';",
         "intermediateLoadingScreenCSS": {},
@@ -30,15 +30,14 @@
           "https://assets.pingone.com/ux/end-user-nano/0.1.0-alpha.9/end-user-nano.css",
           "https://assets.pingone.com/ux/astro-nano/0.1.0-alpha.11/icons.css",
           "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
-          "https://gmorgan-ping.github.io/kyxstart-poc/themes/moneygram/style.css"
+          "https://gmorgan-ping.github.io/kyxstart-poc/themes/western-union/style.css"
         ],
         "scrubSensitiveInfo": false,
-        "customTitle": "Moneygram - KYXStart Demo",
-        "customFaviconLink": "https://gmorgan-ping.github.io/kyxstart-poc/themes/moneygram/images/logo.png"
+        "customTitle": "Western Union - KYXStart Demo",
+        "customFaviconLink": "https://gmorgan-ping.github.io/kyxstart-poc/themes/western-union/images/logo.png"
       },
       "timeouts": "null",
-      "updatedDate": 1776963034735,
-      "flowId": "e43597db873f2c99d5ca886e06ca2fb2",
+      "flowId": "49e5c6721774f598701c14881e9dadfc",
       "versionId": 1,
       "graphData": {
         "elements": {
@@ -60,7 +59,7 @@
                     "value": "#ffffffff"
                   },
                   "annotation": {
-                    "value": "Moneygram Branding"
+                    "value": "Western Union Branding"
                   },
                   "width": {
                     "value": 1100
@@ -81,8 +80,8 @@
                 "status": "configured"
               },
               "position": {
-                "x": 210,
-                "y": 210
+                "x": 218,
+                "y": 278
               },
               "group": "nodes",
               "removed": false,
@@ -126,8 +125,8 @@
                 }
               },
               "position": {
-                "x": 930,
-                "y": 330
+                "x": 934,
+                "y": 394
               },
               "group": "nodes",
               "removed": false,
@@ -168,8 +167,8 @@
                 "idUnique": "g9fybbwj88"
               },
               "position": {
-                "x": 630,
-                "y": 330
+                "x": 634,
+                "y": 394
               },
               "group": "nodes",
               "removed": false,
@@ -186,8 +185,8 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 750,
-                "y": 330
+                "x": 754,
+                "y": 394
               },
               "group": "nodes",
               "removed": false,
@@ -218,12 +217,12 @@
                       {
                         "name": "companyName",
                         "preferredDataType": "string",
-                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"Moneygram\"\n      }\n    ]\n  }\n]"
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"Western Union\"\n      }\n    ]\n  }\n]"
                       },
                       {
                         "name": "companyLogo",
                         "preferredDataType": "string",
-                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"https://gmorgan-ping.github.io/kyxstart-poc/themes/moneygram/images/logo.png\"\n      }\n    ]\n  }\n]"
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"https://gmorgan-ping.github.io/kyxstart-poc/themes/western-union/images/logo.png\"\n      }\n    ]\n  }\n]"
                       },
                       {
                         "name": "enableRegistrationTestMode",
@@ -237,7 +236,7 @@
                       },
                       {
                         "name": "enableTestAccounts",
-                        "preferredDataType": "string",
+                        "preferredDataType": "boolean",
                         "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"true\"\n      }\n    ]\n  }\n]"
                       },
                       {
@@ -258,7 +257,7 @@
               },
               "position": {
                 "x": 330,
-                "y": 330
+                "y": 390
               },
               "group": "nodes",
               "removed": false,
@@ -275,8 +274,8 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 450,
-                "y": 330
+                "x": 454,
+                "y": 394
               },
               "group": "nodes",
               "removed": false,
@@ -289,7 +288,7 @@
             },
             {
               "data": {
-                "id": "7pkcc38t5e",
+                "id": "26drv9icfg",
                 "nodeType": "ANNOTATION",
                 "name": "Annotation",
                 "connectionId": "921bfae85c38ed45045e07be703d86b8",
@@ -332,8 +331,8 @@
                 "idUnique": "o2v5xhdcbc"
               },
               "position": {
-                "x": 210,
-                "y": 150
+                "x": 214,
+                "y": 214
               },
               "group": "nodes",
               "removed": false,
@@ -442,7 +441,7 @@
         }
       },
       "flowColor": "#ff661c",
-      "savedDate": 1776963031336,
+      "savedDate": 1776973965961,
       "variables": [],
       "connections": [],
       "parentFlowId": "f4addfa119f18beed456b6c5b9efd11f"
@@ -486,7 +485,7 @@
       "isInputSchemaSaved": true,
       "isOutputSchemaSaved": false,
       "name": "KYXStart SignOn/Register",
-      "publishedVersion": 290,
+      "publishedVersion": 1,
       "settings": {
         "csp": "worker-src 'self' blob:; script-src 'self' https://cdn.jsdelivr.net https://code.jquery.com https://devsdk.singularkey.com http://cdnjs.cloudflare.com 'unsafe-inline' 'unsafe-eval';",
         "enforcedCsp": "script-src 'nonce-rAnd0m' 'strict-dynamic' 'unsafe-eval' https: http:; object-src 'none'; base-uri 'none'; frame-ancestors 'none';",
@@ -516,7 +515,7 @@
       "trigger": {},
       "updatedDate": 1775821146387,
       "flowId": "f4addfa119f18beed456b6c5b9efd11f",
-      "versionId": 290,
+      "versionId": 1,
       "graphData": {
         "elements": {
           "nodes": [
@@ -17527,7 +17526,7 @@
         "kyxstartConnector",
         "errorConnector"
       ],
-      "createdDate": 1776962663963,
+      "createdDate": 1777057491331,
       "currentVersion": 1,
       "customerId": "f3e47d945ae971a4b4142ec75012d155",
       "description": "",
@@ -17581,8 +17580,9 @@
         "flowTimeoutInSeconds": 12000
       },
       "timeouts": "null",
+      "updatedDate": 1777057494240,
       "flowId": "9d41c101a87eb2d5fd31cb621a28c0ca",
-      "versionId": 1006,
+      "versionId": 1,
       "graphData": {
         "elements": {
           "nodes": [
@@ -17624,7 +17624,7 @@
                 "status": "configured"
               },
               "position": {
-                "x": 330,
+                "x": 214,
                 "y": 270
               },
               "group": "nodes",
@@ -17681,7 +17681,7 @@
                 "idUnique": "o2v5xhdcbc"
               },
               "position": {
-                "x": 334,
+                "x": 218,
                 "y": 214
               },
               "group": "nodes",
@@ -17719,7 +17719,7 @@
                 }
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 480
               },
               "group": "nodes",
@@ -17794,7 +17794,7 @@
                 }
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 480
               },
               "group": "nodes",
@@ -17873,7 +17873,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 480
               },
               "group": "nodes",
@@ -17958,7 +17958,7 @@
                 "idUnique": "3nm07rhtek"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 690
               },
               "group": "nodes",
@@ -17976,7 +17976,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 480
               },
               "group": "nodes",
@@ -17995,7 +17995,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 480
               },
               "group": "nodes",
@@ -18053,7 +18053,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 480
               },
               "group": "nodes",
@@ -18072,7 +18072,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 900
               },
               "group": "nodes",
@@ -18108,7 +18108,7 @@
                 }
               },
               "position": {
-                "x": 3750,
+                "x": 3634,
                 "y": 900
               },
               "group": "nodes",
@@ -18127,7 +18127,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 1650
               },
               "group": "nodes",
@@ -18160,7 +18160,7 @@
                 }
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 1650
               },
               "group": "nodes",
@@ -18211,7 +18211,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 1320
               },
               "group": "nodes",
@@ -18237,7 +18237,7 @@
                 }
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 1320
               },
               "group": "nodes",
@@ -18260,7 +18260,7 @@
                 }
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 1320
               },
               "group": "nodes",
@@ -18293,7 +18293,7 @@
                 }
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 1320
               },
               "group": "nodes",
@@ -18329,7 +18329,7 @@
                 }
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 1320
               },
               "group": "nodes",
@@ -18347,7 +18347,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 1320
               },
               "group": "nodes",
@@ -18385,7 +18385,7 @@
                 "isDisabled": false
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 1320
               },
               "group": "nodes",
@@ -18403,7 +18403,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 1320
               },
               "group": "nodes",
@@ -18444,7 +18444,7 @@
                 "isDisabled": false
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 1320
               },
               "group": "nodes",
@@ -18462,7 +18462,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 1320
               },
               "group": "nodes",
@@ -18480,7 +18480,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 1320
               },
               "group": "nodes",
@@ -18513,7 +18513,7 @@
                 }
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 1320
               },
               "group": "nodes",
@@ -18563,7 +18563,7 @@
                 "status": "configured"
               },
               "position": {
-                "x": 330,
+                "x": 214,
                 "y": 1140
               },
               "group": "nodes",
@@ -18613,7 +18613,7 @@
                 }
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 1320
               },
               "group": "nodes",
@@ -18636,7 +18636,7 @@
                 }
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 1320
               },
               "group": "nodes",
@@ -18669,7 +18669,7 @@
                 }
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 1320
               },
               "group": "nodes",
@@ -18687,7 +18687,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 1470
               },
               "group": "nodes",
@@ -18744,7 +18744,7 @@
                 "idUnique": "d2mbrib33f"
               },
               "position": {
-                "x": 364,
+                "x": 248,
                 "y": 1204
               },
               "group": "nodes",
@@ -18844,7 +18844,7 @@
                 "idUnique": "b9it33hy0o"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 1320
               },
               "group": "nodes",
@@ -18914,7 +18914,7 @@
                 "idUnique": "8rsda1hj30"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 1470
               },
               "group": "nodes",
@@ -18944,7 +18944,7 @@
                 }
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 390
               },
               "group": "nodes",
@@ -18962,7 +18962,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 390
               },
               "group": "nodes",
@@ -19027,7 +19027,7 @@
                 "idUnique": "3k73dv0dwy"
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 1320
               },
               "group": "nodes",
@@ -19045,7 +19045,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 1320
               },
               "group": "nodes",
@@ -19063,7 +19063,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 1320
               },
               "group": "nodes",
@@ -19082,7 +19082,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 480
               },
               "group": "nodes",
@@ -19115,7 +19115,7 @@
                 }
               },
               "position": {
-                "x": 3450,
+                "x": 3334,
                 "y": 480
               },
               "group": "nodes",
@@ -19188,7 +19188,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 480
               },
               "group": "nodes",
@@ -19206,7 +19206,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 480
               },
               "group": "nodes",
@@ -19263,7 +19263,7 @@
                 "idUnique": "d2mbrib33f"
               },
               "position": {
-                "x": 364,
+                "x": 248,
                 "y": 1864
               },
               "group": "nodes",
@@ -19313,7 +19313,7 @@
                 "status": "configured"
               },
               "position": {
-                "x": 330,
+                "x": 214,
                 "y": 1800
               },
               "group": "nodes",
@@ -19347,7 +19347,7 @@
                 "idUnique": "ystz49udox"
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 1980
               },
               "group": "nodes",
@@ -19366,7 +19366,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 1980
               },
               "group": "nodes",
@@ -19435,7 +19435,7 @@
                 }
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 1980
               },
               "group": "nodes",
@@ -19454,7 +19454,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 600
               },
               "group": "nodes",
@@ -19487,7 +19487,7 @@
                 }
               },
               "position": {
-                "x": 3750,
+                "x": 3634,
                 "y": 600
               },
               "group": "nodes",
@@ -19506,7 +19506,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 1980
               },
               "group": "nodes",
@@ -19552,7 +19552,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 1980
               },
               "group": "nodes",
@@ -19571,7 +19571,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 1980
               },
               "group": "nodes",
@@ -19601,7 +19601,7 @@
                 }
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 1980
               },
               "group": "nodes",
@@ -19652,7 +19652,7 @@
                 "idUnique": "rlmlk6pab4"
               },
               "position": {
-                "x": 330,
+                "x": 214,
                 "y": 2370
               },
               "group": "nodes",
@@ -19686,7 +19686,7 @@
                 "idUnique": "95vnscajj3"
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 2550
               },
               "group": "nodes",
@@ -19743,7 +19743,7 @@
                 "idUnique": "4ao08xg3iv"
               },
               "position": {
-                "x": 360,
+                "x": 244,
                 "y": 2430
               },
               "group": "nodes",
@@ -19762,7 +19762,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 2550
               },
               "group": "nodes",
@@ -19786,7 +19786,7 @@
                 }
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 2550
               },
               "group": "nodes",
@@ -19805,7 +19805,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 2250
               },
               "group": "nodes",
@@ -19841,7 +19841,7 @@
                 }
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 2250
               },
               "group": "nodes",
@@ -19993,7 +19993,7 @@
                 }
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 2550
               },
               "group": "nodes",
@@ -20012,7 +20012,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 2550
               },
               "group": "nodes",
@@ -20045,7 +20045,7 @@
                 }
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 2970
               },
               "group": "nodes",
@@ -20091,7 +20091,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 1980
               },
               "group": "nodes",
@@ -20117,7 +20117,7 @@
                 }
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 1980
               },
               "group": "nodes",
@@ -20168,7 +20168,7 @@
                 "idUnique": "rlmlk6pab4"
               },
               "position": {
-                "x": 330,
+                "x": 214,
                 "y": 3540
               },
               "group": "nodes",
@@ -20202,7 +20202,7 @@
                 "idUnique": "95vnscajj3"
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 3750
               },
               "group": "nodes",
@@ -20259,7 +20259,7 @@
                 "idUnique": "4ao08xg3iv"
               },
               "position": {
-                "x": 360,
+                "x": 244,
                 "y": 3600
               },
               "group": "nodes",
@@ -20374,7 +20374,7 @@
                 }
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 3750
               },
               "group": "nodes",
@@ -20393,7 +20393,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 3750
               },
               "group": "nodes",
@@ -20426,7 +20426,7 @@
                 }
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 3930
               },
               "group": "nodes",
@@ -20476,7 +20476,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 2550
               },
               "group": "nodes",
@@ -20494,7 +20494,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 2970
               },
               "group": "nodes",
@@ -20513,7 +20513,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 2100
               },
               "group": "nodes",
@@ -20546,7 +20546,7 @@
                 }
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 2100
               },
               "group": "nodes",
@@ -20583,7 +20583,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 3750
               },
               "group": "nodes",
@@ -20629,7 +20629,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 3750
               },
               "group": "nodes",
@@ -20647,7 +20647,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 3930
               },
               "group": "nodes",
@@ -20693,7 +20693,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 3750
               },
               "group": "nodes",
@@ -20712,7 +20712,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 3750
               },
               "group": "nodes",
@@ -20758,7 +20758,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 3750
               },
               "group": "nodes",
@@ -20785,7 +20785,7 @@
                 }
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 3750
               },
               "group": "nodes",
@@ -20819,7 +20819,7 @@
                 "idUnique": "4tuvsk6w3b"
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 3240
               },
               "group": "nodes",
@@ -20838,7 +20838,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 3240
               },
               "group": "nodes",
@@ -20877,7 +20877,7 @@
                 }
               },
               "position": {
-                "x": 5550,
+                "x": 5434,
                 "y": 3750
               },
               "group": "nodes",
@@ -20933,7 +20933,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 3240
               },
               "group": "nodes",
@@ -20951,7 +20951,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 3240
               },
               "group": "nodes",
@@ -20974,7 +20974,7 @@
                 }
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 3240
               },
               "group": "nodes",
@@ -21020,7 +21020,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 3240
               },
               "group": "nodes",
@@ -21039,7 +21039,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 3240
               },
               "group": "nodes",
@@ -21087,7 +21087,7 @@
                 }
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 3240
               },
               "group": "nodes",
@@ -21133,7 +21133,7 @@
                 "idUnique": "runkq96jpk"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 3390
               },
               "group": "nodes",
@@ -21171,7 +21171,7 @@
                 }
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 3240
               },
               "group": "nodes",
@@ -21189,7 +21189,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 3390
               },
               "group": "nodes",
@@ -21240,7 +21240,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 3240
               },
               "group": "nodes",
@@ -21263,7 +21263,7 @@
                 }
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 3240
               },
               "group": "nodes",
@@ -21286,7 +21286,7 @@
                 }
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 3240
               },
               "group": "nodes",
@@ -21343,7 +21343,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 2550
               },
               "group": "nodes",
@@ -21399,7 +21399,7 @@
                 "status": "configured"
               },
               "position": {
-                "x": 2130,
+                "x": 2014,
                 "y": 2160
               },
               "group": "nodes",
@@ -21455,7 +21455,7 @@
                 "status": "configured"
               },
               "position": {
-                "x": 2164,
+                "x": 2048,
                 "y": 1894
               },
               "group": "nodes",
@@ -21512,7 +21512,7 @@
                 "idUnique": "6k9sum3sci"
               },
               "position": {
-                "x": 3030,
+                "x": 2914,
                 "y": 2880
               },
               "group": "nodes",
@@ -21569,7 +21569,7 @@
                 "idUnique": "rustsugb3c"
               },
               "position": {
-                "x": 5430,
+                "x": 5314,
                 "y": 3630
               },
               "group": "nodes",
@@ -21626,7 +21626,7 @@
                 "idUnique": "4wn5jffaef"
               },
               "position": {
-                "x": 3030,
+                "x": 2914,
                 "y": 3840
               },
               "group": "nodes",
@@ -21677,7 +21677,7 @@
                 "idUnique": "84rq9ldmhv"
               },
               "position": {
-                "x": 330,
+                "x": 214,
                 "y": 3060
               },
               "group": "nodes",
@@ -21734,7 +21734,7 @@
                 "idUnique": "hhp4qe93o4"
               },
               "position": {
-                "x": 360,
+                "x": 244,
                 "y": 3120
               },
               "group": "nodes",
@@ -21791,7 +21791,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 1980
               },
               "group": "nodes",
@@ -21838,7 +21838,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 1980
               },
               "group": "nodes",
@@ -21856,7 +21856,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 1980
               },
               "group": "nodes",
@@ -21874,7 +21874,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 1980
               },
               "group": "nodes",
@@ -21921,7 +21921,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 2550
               },
               "group": "nodes",
@@ -21947,7 +21947,7 @@
                 }
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 2550
               },
               "group": "nodes",
@@ -21989,7 +21989,7 @@
                 }
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 2550
               },
               "group": "nodes",
@@ -22086,7 +22086,7 @@
                 "idUnique": "8rsda1hj30"
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 2700
               },
               "group": "nodes",
@@ -22105,7 +22105,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 2700
               },
               "group": "nodes",
@@ -22151,7 +22151,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3480,
+                "x": 3364,
                 "y": 2700
               },
               "group": "nodes",
@@ -22194,7 +22194,7 @@
                 "idUnique": "0pkrsv6sz6"
               },
               "position": {
-                "x": 3780,
+                "x": 3664,
                 "y": 2700
               },
               "group": "nodes",
@@ -22212,7 +22212,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3600,
+                "x": 3484,
                 "y": 2700
               },
               "group": "nodes",
@@ -22231,7 +22231,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3600,
+                "x": 3484,
                 "y": 2850
               },
               "group": "nodes",
@@ -22267,7 +22267,7 @@
                 }
               },
               "position": {
-                "x": 3780,
+                "x": 3664,
                 "y": 2850
               },
               "group": "nodes",
@@ -22286,7 +22286,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 3390
               },
               "group": "nodes",
@@ -22331,7 +22331,7 @@
                 "idUnique": "t0whnl423v"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 3390
               },
               "group": "nodes",
@@ -22349,7 +22349,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 3390
               },
               "group": "nodes",
@@ -22367,7 +22367,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 3240
               },
               "group": "nodes",
@@ -22412,7 +22412,7 @@
                 "idUnique": "jd8tezdu0n"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 3240
               },
               "group": "nodes",
@@ -22430,7 +22430,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 3240
               },
               "group": "nodes",
@@ -22481,7 +22481,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 480
               },
               "group": "nodes",
@@ -22530,7 +22530,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 480
               },
               "group": "nodes",
@@ -22556,7 +22556,7 @@
                 }
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 480
               },
               "group": "nodes",
@@ -22579,7 +22579,7 @@
                 }
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 480
               },
               "group": "nodes",
@@ -22597,7 +22597,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 480
               },
               "group": "nodes",
@@ -22616,7 +22616,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 1020
               },
               "group": "nodes",
@@ -22649,7 +22649,7 @@
                 }
               },
               "position": {
-                "x": 3450,
+                "x": 3334,
                 "y": 1020
               },
               "group": "nodes",
@@ -22675,7 +22675,7 @@
                 }
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 480
               },
               "group": "nodes",
@@ -22732,7 +22732,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 480
               },
               "group": "nodes",
@@ -22750,7 +22750,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 780
               },
               "group": "nodes",
@@ -22780,7 +22780,7 @@
                 }
               },
               "position": {
-                "x": 3450,
+                "x": 3334,
                 "y": 780
               },
               "group": "nodes",
@@ -22843,7 +22843,7 @@
                 }
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 3750
               },
               "group": "nodes",
@@ -22861,7 +22861,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 3750
               },
               "group": "nodes",
@@ -22911,7 +22911,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 3750
               },
               "group": "nodes",
@@ -22969,7 +22969,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 2550
               },
               "group": "nodes",
@@ -23001,7 +23001,7 @@
                 }
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 2550
               },
               "group": "nodes",
@@ -23047,7 +23047,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 2550
               },
               "group": "nodes",
@@ -23066,7 +23066,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 2550
               },
               "group": "nodes",
@@ -23154,7 +23154,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 2550
               },
               "group": "nodes",
@@ -23173,7 +23173,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 2700
               },
               "group": "nodes",
@@ -23216,7 +23216,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 2700
               },
               "group": "nodes",
@@ -23234,7 +23234,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 2700
               },
               "group": "nodes",
@@ -23278,7 +23278,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 2550
               },
               "group": "nodes",
@@ -23301,7 +23301,7 @@
                 }
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 2550
               },
               "group": "nodes",
@@ -23319,7 +23319,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 2700
               },
               "group": "nodes",
@@ -23337,7 +23337,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 2550
               },
               "group": "nodes",
@@ -23355,7 +23355,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 2700
               },
               "group": "nodes",
@@ -23373,7 +23373,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 2550
               },
               "group": "nodes",
@@ -23421,7 +23421,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 3240
               },
               "group": "nodes",
@@ -23478,7 +23478,7 @@
                 "idUnique": "md5tivlvxu"
               },
               "position": {
-                "x": 3060,
+                "x": 2944,
                 "y": 2460
               },
               "group": "nodes",
@@ -23535,7 +23535,7 @@
                 "idUnique": "5jkbworymk"
               },
               "position": {
-                "x": 3660,
+                "x": 3544,
                 "y": 2610
               },
               "group": "nodes",
@@ -23592,7 +23592,7 @@
                 "idUnique": "7t9a7iff0d"
               },
               "position": {
-                "x": 3660,
+                "x": 3544,
                 "y": 2760
               },
               "group": "nodes",
@@ -23649,7 +23649,7 @@
                 "idUnique": "1jbo4o9va1"
               },
               "position": {
-                "x": 2430,
+                "x": 2314,
                 "y": 2010
               },
               "group": "nodes",
@@ -23667,7 +23667,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 3750
               },
               "group": "nodes",
@@ -23685,7 +23685,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 3750
               },
               "group": "nodes",
@@ -23703,7 +23703,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 3750
               },
               "group": "nodes",
@@ -23721,7 +23721,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 3750
               },
               "group": "nodes",
@@ -23805,7 +23805,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 5250,
+                "x": 5134,
                 "y": 3750
               },
               "group": "nodes",
@@ -23828,7 +23828,7 @@
                 }
               },
               "position": {
-                "x": 5370,
+                "x": 5254,
                 "y": 3750
               },
               "group": "nodes",
@@ -23952,7 +23952,7 @@
                 "idUnique": "7mrsijdsqm"
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 4290
               },
               "group": "nodes",
@@ -23970,7 +23970,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 4290
               },
               "group": "nodes",
@@ -23989,7 +23989,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 4290
               },
               "group": "nodes",
@@ -24035,7 +24035,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 4290
               },
               "group": "nodes",
@@ -24069,7 +24069,7 @@
                 "idUnique": "kh1oemzykr"
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 4590
               },
               "group": "nodes",
@@ -24087,7 +24087,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 4590
               },
               "group": "nodes",
@@ -24110,7 +24110,7 @@
                 }
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 4290
               },
               "group": "nodes",
@@ -24134,7 +24134,7 @@
                 }
               },
               "position": {
-                "x": 5070,
+                "x": 4954,
                 "y": 4290
               },
               "group": "nodes",
@@ -24173,7 +24173,7 @@
                 }
               },
               "position": {
-                "x": 5250,
+                "x": 5134,
                 "y": 4290
               },
               "group": "nodes",
@@ -24207,7 +24207,7 @@
                 "idUnique": "4pyv4rh22z"
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 4590
               },
               "group": "nodes",
@@ -24225,7 +24225,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 4590
               },
               "group": "nodes",
@@ -24282,7 +24282,7 @@
                 "idUnique": "1540zbusam"
               },
               "position": {
-                "x": 3030,
+                "x": 2914,
                 "y": 4500
               },
               "group": "nodes",
@@ -24339,7 +24339,7 @@
                 "idUnique": "olus54tznc"
               },
               "position": {
-                "x": 2160,
+                "x": 2044,
                 "y": 4500
               },
               "group": "nodes",
@@ -24396,7 +24396,7 @@
                 "idUnique": "5iigjxpoa2"
               },
               "position": {
-                "x": 5130,
+                "x": 5014,
                 "y": 4200
               },
               "group": "nodes",
@@ -24428,7 +24428,7 @@
                     "value": "Manage Transactions"
                   },
                   "width": {
-                    "value": 5300
+                    "value": 5900
                   },
                   "fontStyle": {
                     "value": "bold"
@@ -24447,7 +24447,7 @@
                 "idUnique": "co0e21m8q4"
               },
               "position": {
-                "x": 360,
+                "x": 244,
                 "y": 4860
               },
               "group": "nodes",
@@ -24477,7 +24477,7 @@
                 }
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 5040
               },
               "group": "nodes",
@@ -24496,7 +24496,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 5040
               },
               "group": "nodes",
@@ -24543,7 +24543,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 5040
               },
               "group": "nodes",
@@ -24613,7 +24613,7 @@
                 "idUnique": "6je0gprxno"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 5040
               },
               "group": "nodes",
@@ -24631,7 +24631,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 5040
               },
               "group": "nodes",
@@ -24650,7 +24650,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 5040
               },
               "group": "nodes",
@@ -24696,7 +24696,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 5040
               },
               "group": "nodes",
@@ -24715,7 +24715,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 5220
               },
               "group": "nodes",
@@ -24745,7 +24745,7 @@
                 }
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 5220
               },
               "group": "nodes",
@@ -24763,7 +24763,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 5040
               },
               "group": "nodes",
@@ -24781,7 +24781,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 5370
               },
               "group": "nodes",
@@ -24853,7 +24853,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 5400
               },
               "group": "nodes",
@@ -24872,7 +24872,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 5400
               },
               "group": "nodes",
@@ -24929,7 +24929,7 @@
                 }
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 5400
               },
               "group": "nodes",
@@ -24948,7 +24948,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 5400
               },
               "group": "nodes",
@@ -24981,7 +24981,7 @@
                 }
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 5400
               },
               "group": "nodes",
@@ -25075,7 +25075,7 @@
                 }
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 5040
               },
               "group": "nodes",
@@ -25094,7 +25094,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 5040
               },
               "group": "nodes",
@@ -25145,7 +25145,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2250,
+                "x": 2130,
                 "y": 5040
               },
               "group": "nodes",
@@ -25164,7 +25164,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2370,
+                "x": 2250,
                 "y": 5040
               },
               "group": "nodes",
@@ -25215,7 +25215,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2550,
+                "x": 2430,
                 "y": 5040
               },
               "group": "nodes",
@@ -25245,7 +25245,7 @@
                 }
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 5040
               },
               "group": "nodes",
@@ -25294,12 +25294,12 @@
                       "fromAccount": {
                         "type": "object",
                         "description": "For create: source account snapshot (implementation also accepts JSON-string).",
-                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"code-snippet.svg\",\n        \"url\": \"account\",\n        \"data\": \"{{local.8yj1rq29yl.payload.output.account}}\",\n        \"tooltip\": \"{{local.8yj1rq29yl.payload.output.account}}\",\n        \"children\": [\n          {\n            \"text\": \"account\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"code-snippet.svg\",\n        \"url\": \"account\",\n        \"data\": \"{{local.y2cwbj4q6o.payload.output.account}}\",\n        \"tooltip\": \"{{local.y2cwbj4q6o.payload.output.account}}\",\n        \"children\": [\n          {\n            \"text\": \"account\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
                       },
                       "toAccount": {
                         "type": "object",
                         "description": "For create: destination account snapshot (implementation also accepts JSON-string).",
-                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"code-snippet.svg\",\n        \"url\": \"account\",\n        \"data\": \"{{local.kqz66tln8p.payload.output.account}}\",\n        \"tooltip\": \"{{local.kqz66tln8p.payload.output.account}}\",\n        \"children\": [\n          {\n            \"text\": \"account\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"code-snippet.svg\",\n        \"url\": \"account\",\n        \"data\": \"{{local.zl1osecbn1.payload.output.account}}\",\n        \"tooltip\": \"{{local.zl1osecbn1.payload.output.account}}\",\n        \"children\": [\n          {\n            \"text\": \"account\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
                       },
                       "amount": {
                         "type": "string",
@@ -25345,7 +25345,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4050,
+                "x": 4530,
                 "y": 5040
               },
               "group": "nodes",
@@ -25452,7 +25452,7 @@
                 "idUnique": "8rsda1hj30"
               },
               "position": {
-                "x": 3450,
+                "x": 3334,
                 "y": 5040
               },
               "group": "nodes",
@@ -25471,7 +25471,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 4170,
+                "x": 4650,
                 "y": 5040
               },
               "group": "nodes",
@@ -25519,7 +25519,7 @@
                 }
               },
               "position": {
-                "x": 4650,
+                "x": 5130,
                 "y": 5040
               },
               "group": "nodes",
@@ -25557,7 +25557,7 @@
                 }
               },
               "position": {
-                "x": 4950,
+                "x": 5430,
                 "y": 5040
               },
               "group": "nodes",
@@ -25580,7 +25580,7 @@
                 }
               },
               "position": {
-                "x": 5070,
+                "x": 5550,
                 "y": 5040
               },
               "group": "nodes",
@@ -25598,7 +25598,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4770,
+                "x": 5250,
                 "y": 5040
               },
               "group": "nodes",
@@ -25643,7 +25643,7 @@
                 "idUnique": "jd8tezdu0n"
               },
               "position": {
-                "x": 4350,
+                "x": 4830,
                 "y": 5040
               },
               "group": "nodes",
@@ -25661,7 +25661,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4470,
+                "x": 4950,
                 "y": 5040
               },
               "group": "nodes",
@@ -25691,7 +25691,7 @@
                 }
               },
               "position": {
-                "x": 5550,
+                "x": 6030,
                 "y": 5040
               },
               "group": "nodes",
@@ -25734,7 +25734,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 5250,
+                "x": 5730,
                 "y": 5040
               },
               "group": "nodes",
@@ -25752,7 +25752,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 5370,
+                "x": 5850,
                 "y": 5040
               },
               "group": "nodes",
@@ -25789,7 +25789,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 5040
               },
               "group": "nodes",
@@ -25812,7 +25812,7 @@
                 }
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 5040
               },
               "group": "nodes",
@@ -25842,7 +25842,7 @@
                 }
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 5220
               },
               "group": "nodes",
@@ -25893,7 +25893,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 480
               },
               "group": "nodes",
@@ -25916,7 +25916,7 @@
                 }
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 480
               },
               "group": "nodes",
@@ -25954,7 +25954,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 3750
               },
               "group": "nodes",
@@ -25973,7 +25973,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 3750
               },
               "group": "nodes",
@@ -26024,7 +26024,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 3750
               },
               "group": "nodes",
@@ -26050,7 +26050,7 @@
                 }
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 3750
               },
               "group": "nodes",
@@ -26146,7 +26146,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4950,
+                "x": 4834,
                 "y": 4290
               },
               "group": "nodes",
@@ -26242,7 +26242,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 2700
               },
               "group": "nodes",
@@ -26281,7 +26281,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3750,
+                "x": 3634,
                 "y": 3750
               },
               "group": "nodes",
@@ -26362,7 +26362,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3450,
+                "x": 3334,
                 "y": 3750
               },
               "group": "nodes",
@@ -26380,7 +26380,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3570,
+                "x": 3454,
                 "y": 3750
               },
               "group": "nodes",
@@ -26399,7 +26399,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 3750
               },
               "group": "nodes",
@@ -26449,7 +26449,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4050,
+                "x": 3934,
                 "y": 3750
               },
               "group": "nodes",
@@ -26500,7 +26500,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4350,
+                "x": 4234,
                 "y": 3750
               },
               "group": "nodes",
@@ -26519,7 +26519,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 4470,
+                "x": 4354,
                 "y": 3750
               },
               "group": "nodes",
@@ -26537,7 +26537,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4170,
+                "x": 4054,
                 "y": 3750
               },
               "group": "nodes",
@@ -26556,7 +26556,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 4170,
+                "x": 4054,
                 "y": 4080
               },
               "group": "nodes",
@@ -26617,7 +26617,7 @@
                 "idUnique": "auriog4at3"
               },
               "position": {
-                "x": 4650,
+                "x": 4534,
                 "y": 3750
               },
               "group": "nodes",
@@ -26635,7 +26635,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4170,
+                "x": 4054,
                 "y": 3840
               },
               "group": "nodes",
@@ -26653,7 +26653,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4170,
+                "x": 4054,
                 "y": 3930
               },
               "group": "nodes",
@@ -26684,7 +26684,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4350,
+                "x": 4234,
                 "y": 4080
               },
               "group": "nodes",
@@ -26703,7 +26703,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 4770,
+                "x": 4654,
                 "y": 3750
               },
               "group": "nodes",
@@ -26753,7 +26753,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4950,
+                "x": 4834,
                 "y": 3750
               },
               "group": "nodes",
@@ -26772,7 +26772,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 5070,
+                "x": 4954,
                 "y": 4080
               },
               "group": "nodes",
@@ -26802,7 +26802,7 @@
                 }
               },
               "position": {
-                "x": 5250,
+                "x": 5134,
                 "y": 4080
               },
               "group": "nodes",
@@ -26835,7 +26835,7 @@
                 }
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 3900
               },
               "group": "nodes",
@@ -26853,7 +26853,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 3900
               },
               "group": "nodes",
@@ -26872,7 +26872,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 5070,
+                "x": 4954,
                 "y": 3930
               },
               "group": "nodes",
@@ -26917,7 +26917,7 @@
                 }
               },
               "position": {
-                "x": 5250,
+                "x": 5134,
                 "y": 3930
               },
               "group": "nodes",
@@ -26935,7 +26935,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 5070,
+                "x": 4954,
                 "y": 3750
               },
               "group": "nodes",
@@ -27040,7 +27040,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 4290
               },
               "group": "nodes",
@@ -27079,7 +27079,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3450,
+                "x": 3334,
                 "y": 4290
               },
               "group": "nodes",
@@ -27098,7 +27098,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3570,
+                "x": 3454,
                 "y": 4290
               },
               "group": "nodes",
@@ -27116,7 +27116,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 4290
               },
               "group": "nodes",
@@ -27134,7 +27134,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 4290
               },
               "group": "nodes",
@@ -27189,7 +27189,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3750,
+                "x": 3634,
                 "y": 4290
               },
               "group": "nodes",
@@ -27221,7 +27221,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4050,
+                "x": 3934,
                 "y": 4560
               },
               "group": "nodes",
@@ -27239,7 +27239,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 4560
               },
               "group": "nodes",
@@ -27271,7 +27271,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4050,
+                "x": 3934,
                 "y": 4710
               },
               "group": "nodes",
@@ -27289,7 +27289,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 4710
               },
               "group": "nodes",
@@ -27341,7 +27341,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4050,
+                "x": 3934,
                 "y": 4290
               },
               "group": "nodes",
@@ -27359,7 +27359,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 4380
               },
               "group": "nodes",
@@ -27377,7 +27377,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 4440
               },
               "group": "nodes",
@@ -27438,7 +27438,7 @@
                 "idUnique": "02msah3apw"
               },
               "position": {
-                "x": 4350,
+                "x": 4234,
                 "y": 4290
               },
               "group": "nodes",
@@ -27456,7 +27456,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4170,
+                "x": 4054,
                 "y": 4290
               },
               "group": "nodes",
@@ -27507,7 +27507,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 4650,
+                "x": 4534,
                 "y": 4290
               },
               "group": "nodes",
@@ -27525,7 +27525,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4470,
+                "x": 4354,
                 "y": 4290
               },
               "group": "nodes",
@@ -27556,7 +27556,7 @@
                 "idUnique": "r4qprf08vq"
               },
               "position": {
-                "x": 4950,
+                "x": 4834,
                 "y": 4710
               },
               "group": "nodes",
@@ -27574,7 +27574,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4770,
+                "x": 4654,
                 "y": 4710
               },
               "group": "nodes",
@@ -27607,7 +27607,7 @@
                 }
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 4410
               },
               "group": "nodes",
@@ -27625,7 +27625,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 4410
               },
               "group": "nodes",
@@ -27644,7 +27644,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 4770,
+                "x": 4654,
                 "y": 4560
               },
               "group": "nodes",
@@ -27698,7 +27698,7 @@
                 }
               },
               "position": {
-                "x": 4950,
+                "x": 4834,
                 "y": 4560
               },
               "group": "nodes",
@@ -27716,7 +27716,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 4770,
+                "x": 4654,
                 "y": 4290
               },
               "group": "nodes",
@@ -27767,7 +27767,7 @@
                 "idUnique": "v9wvrf8u5k"
               },
               "position": {
-                "x": 360,
+                "x": 244,
                 "y": 5520
               },
               "group": "nodes",
@@ -27800,7 +27800,7 @@
                 }
               },
               "position": {
-                "x": 450,
+                "x": 334,
                 "y": 5700
               },
               "group": "nodes",
@@ -27857,7 +27857,7 @@
                 "idUnique": "t79xssyuh3"
               },
               "position": {
-                "x": 360,
+                "x": 244,
                 "y": 5580
               },
               "group": "nodes",
@@ -27876,7 +27876,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 570,
+                "x": 454,
                 "y": 5700
               },
               "group": "nodes",
@@ -27918,7 +27918,7 @@
                 }
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 5040
               },
               "group": "nodes",
@@ -27958,7 +27958,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1050,
+                "x": 934,
                 "y": 5700
               },
               "group": "nodes",
@@ -27990,7 +27990,7 @@
                 }
               },
               "position": {
-                "x": 1170,
+                "x": 1054,
                 "y": 5700
               },
               "group": "nodes",
@@ -28026,7 +28026,7 @@
                 }
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 6360
               },
               "group": "nodes",
@@ -28083,7 +28083,7 @@
                 "idUnique": "sgg9cu1dmq"
               },
               "position": {
-                "x": 2730,
+                "x": 2614,
                 "y": 4950
               },
               "group": "nodes",
@@ -28126,7 +28126,7 @@
                 "idUnique": "a4kkx0652c"
               },
               "position": {
-                "x": 3150,
+                "x": 3034,
                 "y": 5040
               },
               "group": "nodes",
@@ -28144,7 +28144,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2970,
+                "x": 2854,
                 "y": 5040
               },
               "group": "nodes",
@@ -28201,7 +28201,7 @@
                 "idUnique": "723wnth9pu"
               },
               "position": {
-                "x": 3030,
+                "x": 2914,
                 "y": 4950
               },
               "group": "nodes",
@@ -28250,7 +28250,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 5700
               },
               "group": "nodes",
@@ -28299,7 +28299,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 750,
+                "x": 634,
                 "y": 5700
               },
               "group": "nodes",
@@ -28322,7 +28322,7 @@
                 }
               },
               "position": {
-                "x": 870,
+                "x": 754,
                 "y": 5700
               },
               "group": "nodes",
@@ -28404,7 +28404,7 @@
                 "idUnique": "o7jqdfty7j"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 5700
               },
               "group": "nodes",
@@ -28422,7 +28422,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 5700
               },
               "group": "nodes",
@@ -28461,7 +28461,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 5700
               },
               "group": "nodes",
@@ -28480,7 +28480,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 5700
               },
               "group": "nodes",
@@ -28498,7 +28498,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 5700
               },
               "group": "nodes",
@@ -28582,7 +28582,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 5700
               },
               "group": "nodes",
@@ -28601,7 +28601,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 5700
               },
               "group": "nodes",
@@ -28643,7 +28643,7 @@
                 }
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 5700
               },
               "group": "nodes",
@@ -28669,7 +28669,7 @@
                 "properties": {}
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 3240
               },
               "group": "nodes",
@@ -28688,7 +28688,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 2550
               },
               "group": "nodes",
@@ -28721,27 +28721,8 @@
                 }
               },
               "position": {
-                "x": 3480,
+                "x": 3364,
                 "y": 2550
-              },
-              "group": "nodes",
-              "removed": false,
-              "selected": false,
-              "selectable": true,
-              "locked": false,
-              "grabbable": true,
-              "pannable": false,
-              "classes": ""
-            },
-            {
-              "data": {
-                "id": "i9w7m2f53m",
-                "nodeType": "EVAL",
-                "label": "Evaluator"
-              },
-              "position": {
-                "x": 2670,
-                "y": 5700
               },
               "group": "nodes",
               "removed": false,
@@ -28776,7 +28757,7 @@
                 }
               },
               "position": {
-                "x": 2850,
+                "x": 2730,
                 "y": 5700
               },
               "group": "nodes",
@@ -28794,7 +28775,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3270,
+                "x": 3154,
                 "y": 5040
               },
               "group": "nodes",
@@ -28834,7 +28815,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1350,
+                "x": 1234,
                 "y": 6210
               },
               "group": "nodes",
@@ -28857,7 +28838,7 @@
                 }
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 6210
               },
               "group": "nodes",
@@ -28894,7 +28875,7 @@
                 "idUnique": "7sh502vmng"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 6210
               },
               "group": "nodes",
@@ -28913,7 +28894,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3570,
+                "x": 3454,
                 "y": 5040
               },
               "group": "nodes",
@@ -28959,7 +28940,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 3750,
+                "x": 3634,
                 "y": 5040
               },
               "group": "nodes",
@@ -28977,7 +28958,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 5040
               },
               "group": "nodes",
@@ -28996,7 +28977,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3870,
+                "x": 3754,
                 "y": 5250
               },
               "group": "nodes",
@@ -29026,7 +29007,7 @@
                 }
               },
               "position": {
-                "x": 4050,
+                "x": 3934,
                 "y": 5250
               },
               "group": "nodes",
@@ -29131,7 +29112,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1650,
+                "x": 1534,
                 "y": 5940
               },
               "group": "nodes",
@@ -29149,7 +29130,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1470,
+                "x": 1354,
                 "y": 5940
               },
               "group": "nodes",
@@ -29188,7 +29169,7 @@
                 "capabilityClass": "backend"
               },
               "position": {
-                "x": 1950,
+                "x": 1834,
                 "y": 5940
               },
               "group": "nodes",
@@ -29206,7 +29187,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 1770,
+                "x": 1654,
                 "y": 5940
               },
               "group": "nodes",
@@ -29303,7 +29284,7 @@
                 "idUnique": "9yjzi3vl8q"
               },
               "position": {
-                "x": 2250,
+                "x": 2134,
                 "y": 5940
               },
               "group": "nodes",
@@ -29321,7 +29302,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2070,
+                "x": 1954,
                 "y": 5940
               },
               "group": "nodes",
@@ -29363,7 +29344,7 @@
                 }
               },
               "position": {
-                "x": 2550,
+                "x": 2434,
                 "y": 5940
               },
               "group": "nodes",
@@ -29382,7 +29363,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 5940
               },
               "group": "nodes",
@@ -29418,7 +29399,7 @@
                 }
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 5940
               },
               "group": "nodes",
@@ -29436,7 +29417,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 2370,
+                "x": 2254,
                 "y": 5940
               },
               "group": "nodes",
@@ -29455,7 +29436,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 2670,
+                "x": 2554,
                 "y": 2100
               },
               "group": "nodes",
@@ -29488,7 +29469,7 @@
                 }
               },
               "position": {
-                "x": 2850,
+                "x": 2734,
                 "y": 2100
               },
               "group": "nodes",
@@ -29507,7 +29488,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 3900,
+                "x": 3784,
                 "y": 2700
               },
               "group": "nodes",
@@ -29540,7 +29521,7 @@
                 }
               },
               "position": {
-                "x": 4080,
+                "x": 3964,
                 "y": 2700
               },
               "group": "nodes",
@@ -29559,7 +29540,7 @@
                 "label": "Evaluator"
               },
               "position": {
-                "x": 5670,
+                "x": 5554,
                 "y": 3750
               },
               "group": "nodes",
@@ -29592,7 +29573,7 @@
                 }
               },
               "position": {
-                "x": 5850,
+                "x": 5734,
                 "y": 3750
               },
               "group": "nodes",
@@ -29626,7 +29607,7 @@
                 "idUnique": "6wgeycf94j"
               },
               "position": {
-                "x": 5550,
+                "x": 5434,
                 "y": 4290
               },
               "group": "nodes",
@@ -29644,7 +29625,7 @@
                 "nodeType": "EVAL"
               },
               "position": {
-                "x": 5370,
+                "x": 5254,
                 "y": 4290
               },
               "group": "nodes",
@@ -29701,7 +29682,7 @@
                 "idUnique": "xazui6m5xg"
               },
               "position": {
-                "x": 2730,
+                "x": 2614,
                 "y": 2010
               },
               "group": "nodes",
@@ -29758,7 +29739,7 @@
                 "idUnique": "qyovnxsw5w"
               },
               "position": {
-                "x": 3960,
+                "x": 3844,
                 "y": 2610
               },
               "group": "nodes",
@@ -29815,7 +29796,7 @@
                 "idUnique": "nbk2z7m5u2"
               },
               "position": {
-                "x": 3360,
+                "x": 3244,
                 "y": 2460
               },
               "group": "nodes",
@@ -29872,7 +29853,7 @@
                 "idUnique": "bh2wb5xgnu"
               },
               "position": {
-                "x": 1530,
+                "x": 1414,
                 "y": 5310
               },
               "group": "nodes",
@@ -29929,8 +29910,166 @@
                 "idUnique": "7lszw8fnu4"
               },
               "position": {
-                "x": 2130,
+                "x": 2014,
                 "y": 5130
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "bco09uobe8",
+                "nodeType": "EVAL",
+                "label": "Evaluator"
+              },
+              "position": {
+                "x": 2555.5,
+                "y": 5698.75
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "kk06sfdjg0",
+                "nodeType": "EVAL"
+              },
+              "position": {
+                "x": 4350,
+                "y": 5040
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "y2cwbj4q6o",
+                "nodeType": "CONNECTION",
+                "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
+                "connectorId": "codeSnippetConnector",
+                "name": "Manage Accounts",
+                "label": "Manage Accounts",
+                "status": "configured",
+                "capabilityName": "snippet",
+                "type": "trigger",
+                "properties": {
+                  "functionArgumentList": {
+                    "value": {
+                      "action": {
+                        "type": "string",
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"get\"\n      }\n    ]\n  }\n]"
+                      },
+                      "accountsList": {
+                        "type": "object",
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"variable.svg\",\n        \"url\": \"userAccounts\",\n        \"data\": \"{{global.variables.userAccounts}}\",\n        \"tooltip\": \"{{global.variables.userAccounts}}\",\n        \"children\": [\n          {\n            \"text\": \"userAccounts\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                      },
+                      "id": {
+                        "type": "string",
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"http.svg\",\n        \"url\": \"fromAccountId\",\n        \"data\": \"{{local.zk6z2qvubz.payload.output.fromAccountId}}\",\n        \"tooltip\": \"{{local.zk6z2qvubz.payload.output.fromAccountId}}\",\n        \"children\": [\n          {\n            \"text\": \"fromAccountId\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                      },
+                      "account": {
+                        "type": "object",
+                        "value": ""
+                      }
+                    }
+                  },
+                  "nodeTitle": {
+                    "value": "Get Updated User Account Details"
+                  }
+                },
+                "capabilityClass": "backend"
+              },
+              "position": {
+                "x": 3930,
+                "y": 5040
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "oj2wswzlgb",
+                "nodeType": "EVAL",
+                "label": "Evaluator"
+              },
+              "position": {
+                "x": 4050,
+                "y": 5040
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "zl1osecbn1",
+                "nodeType": "CONNECTION",
+                "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
+                "connectorId": "codeSnippetConnector",
+                "name": "Manage Accounts",
+                "label": "Manage Accounts",
+                "status": "configured",
+                "capabilityName": "snippet",
+                "type": "trigger",
+                "properties": {
+                  "functionArgumentList": {
+                    "value": {
+                      "action": {
+                        "type": "string",
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"get\"\n      }\n    ]\n  }\n]"
+                      },
+                      "accountsList": {
+                        "type": "object",
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"variable.svg\",\n        \"url\": \"userPayees\",\n        \"data\": \"{{global.variables.userPayees}}\",\n        \"tooltip\": \"{{global.variables.userPayees}}\",\n        \"children\": [\n          {\n            \"text\": \"userPayees\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                      },
+                      "id": {
+                        "type": "string",
+                        "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"http.svg\",\n        \"url\": \"toAccountId\",\n        \"data\": \"{{local.zk6z2qvubz.payload.output.toAccountId}}\",\n        \"tooltip\": \"{{local.zk6z2qvubz.payload.output.toAccountId}}\",\n        \"children\": [\n          {\n            \"text\": \"toAccountId\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                      },
+                      "account": {
+                        "type": "object",
+                        "value": ""
+                      }
+                    }
+                  },
+                  "nodeTitle": {
+                    "value": "Get Payee Updated Account Details"
+                  }
+                },
+                "capabilityClass": "backend"
+              },
+              "position": {
+                "x": 4230,
+                "y": 5040
               },
               "group": "nodes",
               "removed": false,
@@ -29943,6 +30082,101 @@
             }
           ],
           "edges": [
+            {
+              "data": {
+                "id": "qh8b4zyopx",
+                "source": "kk06sfdjg0",
+                "target": "pmytq2ot6p"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "hojwtky632",
+                "source": "lghlt2u9cu",
+                "target": "bco09uobe8"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "opy2xztwrk",
+                "source": "rviimxxg5z",
+                "target": "br5qu9oich"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "akuivu3n3n",
+                "source": "br5qu9oich",
+                "target": "xyztq9q4o6"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "3tcw2xmnoc",
+                "source": "xturofsdh7",
+                "target": "m5icuv1e3j"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
             {
               "data": {
                 "id": "qy8lxu40pq",
@@ -30097,9 +30331,9 @@
             },
             {
               "data": {
-                "id": "6mz9nv62or",
-                "source": "bd6ym6uibz",
-                "target": "pmytq2ot6p"
+                "id": "u3rqlyaa4n",
+                "source": "xyztq9q4o6",
+                "target": "chmayguk8c"
               },
               "position": {
                 "x": 0,
@@ -30556,9 +30790,9 @@
             },
             {
               "data": {
-                "id": "rzhj1xhjcb",
-                "source": "lghlt2u9cu",
-                "target": "i9w7m2f53m"
+                "id": "7757wmp2st",
+                "source": "zqusl59hkf",
+                "target": "xturofsdh7"
               },
               "position": {
                 "x": 0,
@@ -34792,8 +35026,8 @@
             },
             {
               "data": {
-                "id": "5g7gff4jvm",
-                "source": "i9w7m2f53m",
+                "id": "61stwmg2ir",
+                "source": "bco09uobe8",
                 "target": "tnfgwbqvbz"
               },
               "position": {
@@ -35485,9 +35719,9 @@
             },
             {
               "data": {
-                "id": "opy2xztwrk",
-                "source": "rviimxxg5z",
-                "target": "br5qu9oich"
+                "id": "odc3jumpna",
+                "source": "y2cwbj4q6o",
+                "target": "oj2wswzlgb"
               },
               "position": {
                 "x": 0,
@@ -35504,9 +35738,9 @@
             },
             {
               "data": {
-                "id": "akuivu3n3n",
-                "source": "br5qu9oich",
-                "target": "xyztq9q4o6"
+                "id": "puejpul1sb",
+                "source": "oj2wswzlgb",
+                "target": "zl1osecbn1"
               },
               "position": {
                 "x": 0,
@@ -35523,9 +35757,9 @@
             },
             {
               "data": {
-                "id": "7757wmp2st",
-                "source": "zqusl59hkf",
-                "target": "xturofsdh7"
+                "id": "oa1c43uznv",
+                "source": "zl1osecbn1",
+                "target": "kk06sfdjg0"
               },
               "position": {
                 "x": 0,
@@ -35542,28 +35776,9 @@
             },
             {
               "data": {
-                "id": "3tcw2xmnoc",
-                "source": "xturofsdh7",
-                "target": "m5icuv1e3j"
-              },
-              "position": {
-                "x": 0,
-                "y": 0
-              },
-              "group": "edges",
-              "removed": false,
-              "selected": false,
-              "selectable": true,
-              "locked": false,
-              "grabbable": true,
-              "pannable": true,
-              "classes": ""
-            },
-            {
-              "data": {
-                "id": "u3rqlyaa4n",
-                "source": "xyztq9q4o6",
-                "target": "chmayguk8c"
+                "id": "bdwsoyhbmt",
+                "source": "bd6ym6uibz",
+                "target": "y2cwbj4q6o"
               },
               "position": {
                 "x": 0,
@@ -35615,7 +35830,7 @@
         }
       ],
       "flowColor": "#ff661c",
-      "savedDate": 1776962660211,
+      "savedDate": 1777057487260,
       "variables": [
         {
           "context": "flowInstance",
@@ -36636,6 +36851,140 @@
           },
           "updatedDate": 1776886555046,
           "connectionId": "76a011e2516afcd5214afa2db21035dd",
+          "companyId": "",
+          "metadata": {
+            "colors": {
+              "canvas": "#E3F0FF",
+              "canvasText": "#253746",
+              "dark": "#2B90C9"
+            },
+            "logos": {
+              "canvas": {
+                "imageFileName": "code-snippet.svg"
+              }
+            },
+            "type": "core",
+            "vendor": ""
+          }
+        },
+        {
+          "connectorId": "codeSnippetConnector",
+          "createdDate": 1766169231111,
+          "customerId": "f3e47d945ae971a4b4142ec75012d155",
+          "name": "Manage Accounts",
+          "properties": {
+            "code": {
+              "type": "string",
+              "displayName": "Code Snippet",
+              "sizeInBytes": 0,
+              "createdDate": 1694542156340,
+              "customerId": "ecb9bf8a2fab854e65045d02cb6bab50",
+              "companyId": "singularkey",
+              "id": "3cf0f1fb-78e0-4b00-9825-d3ebed0f0b90",
+              "preferredControlType": "codeEditor",
+              "value": "// TODO align schema - punted due to cc data-* parsing requiring lowercase for credit cards\n\n/**\n * CRUD helper for accounts stored as an array of objects.\n *\n * Platform note:\n * - accountsList may arrive as an actual array/object OR as a JSON string.\n *\n * Inputs (params):\n * - action: \"add\" | \"update\" | \"delete\" | \"get\"\n * - accountsList: array/object/JSON-string representing the list of accounts\n * - id: required for update/delete/get\n * - account: required for add (full object shaped per your model); optional for update (patch object)\n *\n * Returns:\n * - accounts: normalized array of accounts\n * - account: selected account (for get, add, update) or null\n * - debug: diagnostic info (keep for now; remove later if desired)\n */\n\nmodule.exports = async ({ params }) => {\n  const { action, accountsList = [], id, account } = params;\n\n  const normalizedAction =\n    typeof action === \"string\" ? action.toLowerCase().trim() : \"\";\n\n  const normalizedId =\n    typeof id === \"undefined\" || id === null ? \"\" : String(id).trim();\n\n  // -----------------------------\n  // Normalize accountsList -> array\n  // -----------------------------\n  let accountsArray = [];\n  let accountsSource = \"unknown\";\n  let accountsParseError = null;\n\n  if (Array.isArray(accountsList)) {\n    accountsArray = [...accountsList];\n    accountsSource = \"array\";\n  } else if (typeof accountsList === \"string\" && accountsList.trim()) {\n    try {\n      const parsed = JSON.parse(accountsList);\n\n      if (Array.isArray(parsed)) {\n        accountsArray = [...parsed];\n        accountsSource = \"string.json.array\";\n      } else if (parsed && typeof parsed === \"object\" && Array.isArray(parsed.accounts)) {\n        accountsArray = [...parsed.accounts];\n        accountsSource = \"string.json.object.accounts\";\n      } else if (parsed && typeof parsed === \"object\") {\n        accountsArray = Object.values(parsed);\n        accountsSource = \"string.json.object.values\";\n      }\n    } catch (e) {\n      accountsArray = [];\n      accountsSource = \"string.json.parse_failed\";\n      accountsParseError = String(e && e.message ? e.message : e);\n    }\n  } else if (accountsList && typeof accountsList === \"object\") {\n    if (Array.isArray(accountsList.accounts)) {\n      accountsArray = [...accountsList.accounts];\n      accountsSource = \"object.accounts\";\n    } else {\n      accountsArray = Object.values(accountsList);\n      accountsSource = \"object.values\";\n    }\n  }\n\n  // -----------------------------\n  // Normalize account -> object\n  // -----------------------------\n  let accountObj = null;\n  let accountSource = \"none\";\n  let accountParseError = null;\n\n  if (account && typeof account === \"object\" && !Array.isArray(account)) {\n    accountObj = account;\n    accountSource = \"object\";\n  } else if (typeof account === \"string\" && account.trim()) {\n    try {\n      const parsed = JSON.parse(account);\n      if (parsed && typeof parsed === \"object\" && !Array.isArray(parsed)) {\n        accountObj = parsed;\n        accountSource = \"string.json.object\";\n      } else {\n        accountObj = null;\n        accountSource = \"string.json.not_object\";\n      }\n    } catch (e) {\n      accountObj = null;\n      accountSource = \"string.json.parse_failed\";\n      accountParseError = String(e && e.message ? e.message : e);\n    }\n  }\n\n  const nowIso = () => new Date().toISOString();\n\n  // Pure JS UUID v4 generator (no crypto dependency)\n  const generateUUID = () =>\n    \"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx\".replace(/[xy]/g, (c) => {\n      const r = Math.random() * 16 | 0;\n      const v = c === \"x\" ? r : (r & 0x3) | 0x8;\n      return v.toString(16);\n    });\n\n  const normalizeAccountId = (value) =>\n    typeof value === \"undefined\" || value === null ? \"\" : String(value).trim();\n\n  const findIndexById = (arr, searchId) =>\n    arr.findIndex((a) => a && typeof a === \"object\" && normalizeAccountId(a.id) === searchId);\n\n  // -----------------------------\n  // Derived field helpers\n  // -----------------------------\n  const MS_PER_DAY = 24 * 60 * 60 * 1000;\n\n  const getDaysSinceLastVerification = (verificationDate) => {\n    if (typeof verificationDate !== \"string\" || !verificationDate.trim()) {\n      return null;\n    }\n\n    const parsed = new Date(verificationDate);\n    const time = parsed.getTime();\n\n    if (Number.isNaN(time)) {\n      return null;\n    }\n\n    const diffMs = Date.now() - time;\n\n    if (diffMs < 0) {\n      return 0;\n    }\n\n    return Math.floor(diffMs / MS_PER_DAY);\n  };\n\n  const decorateAccount = (acct) => {\n    if (!acct || typeof acct !== \"object\") {\n      return acct;\n    }\n\n    return {\n      ...acct,\n      daysSinceLastVerification: getDaysSinceLastVerification(acct.kyxstartVerificationDate)\n    };\n  };\n\n  let selectedAccount = null;\n  let matchedIndex = -1;\n\n  // ADD\n  if (normalizedAction === \"add\" && accountObj && typeof accountObj === \"object\") {\n    const newAccount = {\n      ...accountObj,\n      id: normalizeAccountId(accountObj.id) || generateUUID(),\n      createdAt:\n        (typeof accountObj.createdAt === \"string\" && accountObj.createdAt.trim())\n          ? accountObj.createdAt.trim()\n          : nowIso()\n    };\n\n    accountsArray.push(newAccount);\n    selectedAccount = newAccount;\n  }\n\n  // UPDATE\n  if (normalizedAction === \"update\" && normalizedId) {\n    matchedIndex = findIndexById(accountsArray, normalizedId);\n\n    if (matchedIndex !== -1) {\n      const existing = accountsArray[matchedIndex];\n\n      const safePatch =\n        accountObj && typeof accountObj === \"object\" ? accountObj : {};\n\n      const updated = {\n        ...existing,\n        ...safePatch,\n        id: existing.id,\n        createdAt: existing.createdAt,\n        updatedAt: nowIso()\n      };\n\n      accountsArray[matchedIndex] = updated;\n      selectedAccount = updated;\n    }\n  }\n\n  // DELETE\n  if (normalizedAction === \"delete\" && normalizedId) {\n    matchedIndex = findIndexById(accountsArray, normalizedId);\n\n    if (matchedIndex !== -1) {\n      accountsArray.splice(matchedIndex, 1);\n      selectedAccount = null;\n    }\n  }\n\n  // GET\n  if (normalizedAction === \"get\" && normalizedId) {\n    matchedIndex = findIndexById(accountsArray, normalizedId);\n    selectedAccount = matchedIndex === -1 ? null : accountsArray[matchedIndex];\n  }\n\n  // Add derived property to returned accounts\n  const decoratedAccountsArray = accountsArray.map(decorateAccount);\n  const decoratedSelectedAccount = decorateAccount(selectedAccount);\n\n  // Serialize for storage-friendly persistence\n  const accountsObject = { accounts: accountsArray };\n\n  return {\n    accounts: decoratedAccountsArray,\n    accountsObject,\n    account: decoratedSelectedAccount,\n    debug: {\n      rawAction: action,\n      normalizedAction,\n      incomingId: id,\n      normalizedId,\n\n      accountsListType: typeof accountsList,\n      accountsSource,\n      accountsParseError,\n\n      accountType: typeof account,\n      accountSource,\n      accountParseError,\n      accountKeys: accountObj && typeof accountObj === \"object\" ? Object.keys(accountObj) : [],\n\n      accountCount: accountsArray.length,\n      accountIds: accountsArray.map((a) => normalizeAccountId(a?.id) || null),\n\n      matchedIndex,\n      found: matchedIndex !== -1,\n      updatedAccount:\n        matchedIndex !== -1 && accountsArray[matchedIndex]\n          ? accountsArray[matchedIndex]\n          : null\n    }\n  };\n};",
+              "language": "javascript",
+              "info": "Follow example for code. Caution: Custom code is for advanced users only. Before using custom code, review the security risks in the DaVinci documentation by searching for \"Using custom code safely\".",
+              "maximizeToggle": true
+            },
+            "inputSchema": {
+              "type": "string",
+              "displayName": "Input Schema",
+              "sizeInBytes": 0,
+              "createdDate": 1694542156288,
+              "customerId": "ecb9bf8a2fab854e65045d02cb6bab50",
+              "companyId": "singularkey",
+              "id": "c8cab88e-762d-4701-8215-742b7ac17186",
+              "preferredControlType": "codeEditor",
+              "value": "{\n  \"input\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"action\": {\n        \"type\": \"string\"\n      },\n      \"accountsList\": {\n        \"type\": \"object\"\n      },\n      \"id\": {\n        \"type\": \"string\"\n      },\n      \"account\": {\n        \"type\": \"object\"\n      }\n    }\n  }\n}\n",
+              "language": "json",
+              "info": "Follow example for JSON schema.",
+              "maximizeToggle": true
+            },
+            "outputSchema": {
+              "type": "string",
+              "displayName": "Output Schema",
+              "sizeInBytes": 0,
+              "createdDate": 1694542156271,
+              "customerId": "ecb9bf8a2fab854e65045d02cb6bab50",
+              "companyId": "singularkey",
+              "id": "ea3201cc-09a3-4b15-8c12-23e224e120c4",
+              "preferredControlType": "codeEditor",
+              "value": "{\n  \"output\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"accounts\": {\n        \"type\": \"object\"\n      },\n      \"accountsObject\": {\n        \"type\": \"object\"\n      },\n      \"account\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": { \"type\": \"string\" },\n          \"type\": { \"type\": \"string\" },\n          \"createdAt\": { \"type\": \"string\" },\n          \"kyxstartStatus\": { \"type\": \"string\" },\n          \"kyxstartVerificationDate\": { \"type\": \"string\" },\n          \"daysSinceLastVerification\": { \"type\": \"number\" },\n          \"reasons\": {\"type\": \"array\"},\n\n          \"accountName\": { \"type\": \"string\" },\n          \"firstName\": { \"type\": \"string\" },\n          \"lastName\": { \"type\": \"string\" },\n\n          \"bankName\": { \"type\": \"string\" },\n          \"bankLogoUrl\": { \"type\": \"string\" },\n\n          \"cardnumber\": { \"type\": \"string\" },\n          \"cardnumberMasked\": { \"type\": \"string\" },\n          \"address1\": { \"type\": \"string\" },\n          \"city\": { \"type\": \"string\" },\n          \"state\": { \"type\": \"string\" },\n          \"postalcode\": { \"type\": \"string\" },\n          \"brand\": { \"type\": \"string\" },\n          \"cardLogoUrl\": { \"type\": \"string\" },\n\n          \"details\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"accountNumber\": { \"type\": \"string\" },\n              \"routingNumber\": { \"type\": \"string\" }\n            }\n          }\n        }\n      },\n      \"debug\": {\n        \"type\": \"object\"\n      }\n    }\n  }\n}",
+              "language": "json",
+              "info": "Follow example for JSON schema.",
+              "maximizeToggle": true
+            }
+          },
+          "updatedDate": 1776873426831,
+          "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
+          "companyId": "",
+          "metadata": {
+            "colors": {
+              "canvas": "#E3F0FF",
+              "canvasText": "#253746",
+              "dark": "#2B90C9"
+            },
+            "logos": {
+              "canvas": {
+                "imageFileName": "code-snippet.svg"
+              }
+            },
+            "type": "core",
+            "vendor": ""
+          }
+        },
+        {
+          "connectorId": "codeSnippetConnector",
+          "createdDate": 1766169231111,
+          "customerId": "f3e47d945ae971a4b4142ec75012d155",
+          "name": "Manage Accounts",
+          "properties": {
+            "code": {
+              "type": "string",
+              "displayName": "Code Snippet",
+              "sizeInBytes": 0,
+              "createdDate": 1694542156340,
+              "customerId": "ecb9bf8a2fab854e65045d02cb6bab50",
+              "companyId": "singularkey",
+              "id": "3cf0f1fb-78e0-4b00-9825-d3ebed0f0b90",
+              "preferredControlType": "codeEditor",
+              "value": "// TODO align schema - punted due to cc data-* parsing requiring lowercase for credit cards\n\n/**\n * CRUD helper for accounts stored as an array of objects.\n *\n * Platform note:\n * - accountsList may arrive as an actual array/object OR as a JSON string.\n *\n * Inputs (params):\n * - action: \"add\" | \"update\" | \"delete\" | \"get\"\n * - accountsList: array/object/JSON-string representing the list of accounts\n * - id: required for update/delete/get\n * - account: required for add (full object shaped per your model); optional for update (patch object)\n *\n * Returns:\n * - accounts: normalized array of accounts\n * - account: selected account (for get, add, update) or null\n * - debug: diagnostic info (keep for now; remove later if desired)\n */\n\nmodule.exports = async ({ params }) => {\n  const { action, accountsList = [], id, account } = params;\n\n  const normalizedAction =\n    typeof action === \"string\" ? action.toLowerCase().trim() : \"\";\n\n  const normalizedId =\n    typeof id === \"undefined\" || id === null ? \"\" : String(id).trim();\n\n  // -----------------------------\n  // Normalize accountsList -> array\n  // -----------------------------\n  let accountsArray = [];\n  let accountsSource = \"unknown\";\n  let accountsParseError = null;\n\n  if (Array.isArray(accountsList)) {\n    accountsArray = [...accountsList];\n    accountsSource = \"array\";\n  } else if (typeof accountsList === \"string\" && accountsList.trim()) {\n    try {\n      const parsed = JSON.parse(accountsList);\n\n      if (Array.isArray(parsed)) {\n        accountsArray = [...parsed];\n        accountsSource = \"string.json.array\";\n      } else if (parsed && typeof parsed === \"object\" && Array.isArray(parsed.accounts)) {\n        accountsArray = [...parsed.accounts];\n        accountsSource = \"string.json.object.accounts\";\n      } else if (parsed && typeof parsed === \"object\") {\n        accountsArray = Object.values(parsed);\n        accountsSource = \"string.json.object.values\";\n      }\n    } catch (e) {\n      accountsArray = [];\n      accountsSource = \"string.json.parse_failed\";\n      accountsParseError = String(e && e.message ? e.message : e);\n    }\n  } else if (accountsList && typeof accountsList === \"object\") {\n    if (Array.isArray(accountsList.accounts)) {\n      accountsArray = [...accountsList.accounts];\n      accountsSource = \"object.accounts\";\n    } else {\n      accountsArray = Object.values(accountsList);\n      accountsSource = \"object.values\";\n    }\n  }\n\n  // -----------------------------\n  // Normalize account -> object\n  // -----------------------------\n  let accountObj = null;\n  let accountSource = \"none\";\n  let accountParseError = null;\n\n  if (account && typeof account === \"object\" && !Array.isArray(account)) {\n    accountObj = account;\n    accountSource = \"object\";\n  } else if (typeof account === \"string\" && account.trim()) {\n    try {\n      const parsed = JSON.parse(account);\n      if (parsed && typeof parsed === \"object\" && !Array.isArray(parsed)) {\n        accountObj = parsed;\n        accountSource = \"string.json.object\";\n      } else {\n        accountObj = null;\n        accountSource = \"string.json.not_object\";\n      }\n    } catch (e) {\n      accountObj = null;\n      accountSource = \"string.json.parse_failed\";\n      accountParseError = String(e && e.message ? e.message : e);\n    }\n  }\n\n  const nowIso = () => new Date().toISOString();\n\n  // Pure JS UUID v4 generator (no crypto dependency)\n  const generateUUID = () =>\n    \"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx\".replace(/[xy]/g, (c) => {\n      const r = Math.random() * 16 | 0;\n      const v = c === \"x\" ? r : (r & 0x3) | 0x8;\n      return v.toString(16);\n    });\n\n  const normalizeAccountId = (value) =>\n    typeof value === \"undefined\" || value === null ? \"\" : String(value).trim();\n\n  const findIndexById = (arr, searchId) =>\n    arr.findIndex((a) => a && typeof a === \"object\" && normalizeAccountId(a.id) === searchId);\n\n  // -----------------------------\n  // Derived field helpers\n  // -----------------------------\n  const MS_PER_DAY = 24 * 60 * 60 * 1000;\n\n  const getDaysSinceLastVerification = (verificationDate) => {\n    if (typeof verificationDate !== \"string\" || !verificationDate.trim()) {\n      return null;\n    }\n\n    const parsed = new Date(verificationDate);\n    const time = parsed.getTime();\n\n    if (Number.isNaN(time)) {\n      return null;\n    }\n\n    const diffMs = Date.now() - time;\n\n    if (diffMs < 0) {\n      return 0;\n    }\n\n    return Math.floor(diffMs / MS_PER_DAY);\n  };\n\n  const decorateAccount = (acct) => {\n    if (!acct || typeof acct !== \"object\") {\n      return acct;\n    }\n\n    return {\n      ...acct,\n      daysSinceLastVerification: getDaysSinceLastVerification(acct.kyxstartVerificationDate)\n    };\n  };\n\n  let selectedAccount = null;\n  let matchedIndex = -1;\n\n  // ADD\n  if (normalizedAction === \"add\" && accountObj && typeof accountObj === \"object\") {\n    const newAccount = {\n      ...accountObj,\n      id: normalizeAccountId(accountObj.id) || generateUUID(),\n      createdAt:\n        (typeof accountObj.createdAt === \"string\" && accountObj.createdAt.trim())\n          ? accountObj.createdAt.trim()\n          : nowIso()\n    };\n\n    accountsArray.push(newAccount);\n    selectedAccount = newAccount;\n  }\n\n  // UPDATE\n  if (normalizedAction === \"update\" && normalizedId) {\n    matchedIndex = findIndexById(accountsArray, normalizedId);\n\n    if (matchedIndex !== -1) {\n      const existing = accountsArray[matchedIndex];\n\n      const safePatch =\n        accountObj && typeof accountObj === \"object\" ? accountObj : {};\n\n      const updated = {\n        ...existing,\n        ...safePatch,\n        id: existing.id,\n        createdAt: existing.createdAt,\n        updatedAt: nowIso()\n      };\n\n      accountsArray[matchedIndex] = updated;\n      selectedAccount = updated;\n    }\n  }\n\n  // DELETE\n  if (normalizedAction === \"delete\" && normalizedId) {\n    matchedIndex = findIndexById(accountsArray, normalizedId);\n\n    if (matchedIndex !== -1) {\n      accountsArray.splice(matchedIndex, 1);\n      selectedAccount = null;\n    }\n  }\n\n  // GET\n  if (normalizedAction === \"get\" && normalizedId) {\n    matchedIndex = findIndexById(accountsArray, normalizedId);\n    selectedAccount = matchedIndex === -1 ? null : accountsArray[matchedIndex];\n  }\n\n  // Add derived property to returned accounts\n  const decoratedAccountsArray = accountsArray.map(decorateAccount);\n  const decoratedSelectedAccount = decorateAccount(selectedAccount);\n\n  // Serialize for storage-friendly persistence\n  const accountsObject = { accounts: accountsArray };\n\n  return {\n    accounts: decoratedAccountsArray,\n    accountsObject,\n    account: decoratedSelectedAccount,\n    debug: {\n      rawAction: action,\n      normalizedAction,\n      incomingId: id,\n      normalizedId,\n\n      accountsListType: typeof accountsList,\n      accountsSource,\n      accountsParseError,\n\n      accountType: typeof account,\n      accountSource,\n      accountParseError,\n      accountKeys: accountObj && typeof accountObj === \"object\" ? Object.keys(accountObj) : [],\n\n      accountCount: accountsArray.length,\n      accountIds: accountsArray.map((a) => normalizeAccountId(a?.id) || null),\n\n      matchedIndex,\n      found: matchedIndex !== -1,\n      updatedAccount:\n        matchedIndex !== -1 && accountsArray[matchedIndex]\n          ? accountsArray[matchedIndex]\n          : null\n    }\n  };\n};",
+              "language": "javascript",
+              "info": "Follow example for code. Caution: Custom code is for advanced users only. Before using custom code, review the security risks in the DaVinci documentation by searching for \"Using custom code safely\".",
+              "maximizeToggle": true
+            },
+            "inputSchema": {
+              "type": "string",
+              "displayName": "Input Schema",
+              "sizeInBytes": 0,
+              "createdDate": 1694542156288,
+              "customerId": "ecb9bf8a2fab854e65045d02cb6bab50",
+              "companyId": "singularkey",
+              "id": "c8cab88e-762d-4701-8215-742b7ac17186",
+              "preferredControlType": "codeEditor",
+              "value": "{\n  \"input\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"action\": {\n        \"type\": \"string\"\n      },\n      \"accountsList\": {\n        \"type\": \"object\"\n      },\n      \"id\": {\n        \"type\": \"string\"\n      },\n      \"account\": {\n        \"type\": \"object\"\n      }\n    }\n  }\n}\n",
+              "language": "json",
+              "info": "Follow example for JSON schema.",
+              "maximizeToggle": true
+            },
+            "outputSchema": {
+              "type": "string",
+              "displayName": "Output Schema",
+              "sizeInBytes": 0,
+              "createdDate": 1694542156271,
+              "customerId": "ecb9bf8a2fab854e65045d02cb6bab50",
+              "companyId": "singularkey",
+              "id": "ea3201cc-09a3-4b15-8c12-23e224e120c4",
+              "preferredControlType": "codeEditor",
+              "value": "{\n  \"output\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"accounts\": {\n        \"type\": \"object\"\n      },\n      \"accountsObject\": {\n        \"type\": \"object\"\n      },\n      \"account\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": { \"type\": \"string\" },\n          \"type\": { \"type\": \"string\" },\n          \"createdAt\": { \"type\": \"string\" },\n          \"kyxstartStatus\": { \"type\": \"string\" },\n          \"kyxstartVerificationDate\": { \"type\": \"string\" },\n          \"daysSinceLastVerification\": { \"type\": \"number\" },\n          \"reasons\": {\"type\": \"array\"},\n\n          \"accountName\": { \"type\": \"string\" },\n          \"firstName\": { \"type\": \"string\" },\n          \"lastName\": { \"type\": \"string\" },\n\n          \"bankName\": { \"type\": \"string\" },\n          \"bankLogoUrl\": { \"type\": \"string\" },\n\n          \"cardnumber\": { \"type\": \"string\" },\n          \"cardnumberMasked\": { \"type\": \"string\" },\n          \"address1\": { \"type\": \"string\" },\n          \"city\": { \"type\": \"string\" },\n          \"state\": { \"type\": \"string\" },\n          \"postalcode\": { \"type\": \"string\" },\n          \"brand\": { \"type\": \"string\" },\n          \"cardLogoUrl\": { \"type\": \"string\" },\n\n          \"details\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"accountNumber\": { \"type\": \"string\" },\n              \"routingNumber\": { \"type\": \"string\" }\n            }\n          }\n        }\n      },\n      \"debug\": {\n        \"type\": \"object\"\n      }\n    }\n  }\n}",
+              "language": "json",
+              "info": "Follow example for JSON schema.",
+              "maximizeToggle": true
+            }
+          },
+          "updatedDate": 1776873426831,
+          "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
           "companyId": "",
           "metadata": {
             "colors": {

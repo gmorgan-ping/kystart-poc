@@ -1,7 +1,7 @@
 {
   "flows": [
     {
-      "companyId": "",
+      "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
       "authTokenExpireIds": [],
       "connectorIds": [
         "annotationConnector",
@@ -10,13 +10,13 @@
         "functionsConnector"
       ],
       "createdDate": 1776962780647,
-      "currentVersion": 1,
+      "currentVersion": 55,
       "customerId": "f3e47d945ae971a4b4142ec75012d155",
       "description": "Imported on Mon Dec 22 2025 13:26:35 GMT+0000 (Coordinated Universal Time)",
       "flowStatus": "enabled",
       "isOutputSchemaSaved": false,
-      "name": "KYXStart Branding",
-      "publishedVersion": 1,
+      "name": "KYXStart Branding ",
+      "publishedVersion": 55,
       "settings": {
         "csp": "worker-src 'self' blob:; script-src 'self' https://cdn.jsdelivr.net https://code.jquery.com https://devsdk.singularkey.com http://cdnjs.cloudflare.com 'unsafe-inline' 'unsafe-eval';",
         "intermediateLoadingScreenCSS": {},
@@ -40,7 +40,7 @@
       "timeouts": "null",
       "updatedDate": 1776962784740,
       "flowId": "69eacbb749cd0e199e83f9814a6976ff",
-      "versionId": 1,
+      "versionId": 55,
       "graphData": {
         "elements": {
           "nodes": [
@@ -457,7 +457,7 @@
       "parentFlowId": "f4addfa119f18beed456b6c5b9efd11f"
     },
     {
-      "companyId": "",
+      "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
       "authTokenExpireIds": [],
       "connectorIds": [
         "errorConnector",
@@ -471,8 +471,8 @@
         "kyxstartConnector",
         "flowConnector"
       ],
-      "createdDate": 1775821143916,
-      "currentVersion": 1,
+      "createdDate": 1778020128877,
+      "currentVersion": 303,
       "customerId": "f3e47d945ae971a4b4142ec75012d155",
       "description": "",
       "flowStatus": "enabled",
@@ -495,7 +495,7 @@
       "isInputSchemaSaved": true,
       "isOutputSchemaSaved": false,
       "name": "KYXStart SignOn/Register",
-      "publishedVersion": 1,
+      "publishedVersion": 302,
       "settings": {
         "csp": "worker-src 'self' blob:; script-src 'self' https://cdn.jsdelivr.net https://code.jquery.com https://devsdk.singularkey.com http://cdnjs.cloudflare.com 'unsafe-inline' 'unsafe-eval';",
         "enforcedCsp": "script-src 'nonce-rAnd0m' 'strict-dynamic' 'unsafe-eval' https: http:; object-src 'none'; base-uri 'none'; frame-ancestors 'none';",
@@ -523,9 +523,8 @@
       },
       "timeouts": "null",
       "trigger": {},
-      "updatedDate": 1775821146387,
       "flowId": "f4addfa119f18beed456b6c5b9efd11f",
-      "versionId": 1,
+      "versionId": 303,
       "graphData": {
         "elements": {
           "nodes": [
@@ -5812,6 +5811,9 @@
                   },
                   "vh7nlqxpit": {
                     "value": "anyTriggersFalse"
+                  },
+                  "6vs4e8uihx": {
+                    "value": "anyTriggersFalse"
                   }
                 }
               },
@@ -6687,100 +6689,6 @@
             },
             {
               "data": {
-                "id": "vh7nlqxpit",
-                "nodeType": "CONNECTION",
-                "connectionId": "867ed4363b2bc21c860085ad2baa817d",
-                "connectorId": "httpConnector",
-                "name": "Http",
-                "label": "Http",
-                "status": "configured",
-                "capabilityName": "customHTMLTemplate",
-                "type": "trigger",
-                "properties": {
-                  "buttonLabel": {
-                    "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"Continue\"\n      }\n    ]\n  }\n]"
-                  },
-                  "sktemplate": {
-                    "uiId": "624fbda9a79d412a0e62cc045b410da7",
-                    "createdDate": 1693913007853,
-                    "customerId": "f3e47d945ae971a4b4142ec75012d155",
-                    "description": "",
-                    "inputSchema": "{\n    \"type\": \"object\",\n    \"properties\": {\n        \"title\": {\n            \"type\": \"string\",\n            \"displayName\": \"Title\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"title\"\n        },\n\t\t\"textOne\": {\n            \"type\": \"string\",\n            \"displayName\": \"Text One\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"textOne\"\n        },\n\t\t\"textTwo\": {\n            \"type\": \"string\",\n            \"displayName\": \"Text Two\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"textTwo\"\n        },\n\t\t\"buttonLabel\": {\n            \"type\": \"string\",\n            \"displayName\": \"Button Label\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"buttonLabel\"\n        }\n    }\n}",
-                    "name": "Custom Message",
-                    "outputSchema": null,
-                    "script": "",
-                    "style": "",
-                    "template": "",
-                    "updatedDate": 1693913396823,
-                    "validationRules": [],
-                    "version": "1.0",
-                    "visibility": "private",
-                    "companyId": "9343c168-20f8-4262-b335-5250b428bd12",
-                    "value": "624fbda9a79d412a0e62cc045b410da7"
-                  },
-                  "inputSchema": {
-                    "value": "{\n    \"type\": \"object\",\n    \"properties\": {\n        \"title\": {\n            \"type\": \"string\",\n            \"displayName\": \"Title\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"title\"\n        },\n\t\t\"textOne\": {\n            \"type\": \"string\",\n            \"displayName\": \"Text One\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"textOne\"\n        },\n\t\t\"textTwo\": {\n            \"type\": \"string\",\n            \"displayName\": \"Text Two\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"textTwo\"\n        },\n\t\t\"buttonLabel\": {\n            \"type\": \"string\",\n            \"displayName\": \"Button Label\",\n            \"preferredControlType\": \"textField\",\n            \"enableParameters\": true,\n            \"propertyName\": \"buttonLabel\"\n        }\n    }\n}"
-                  },
-                  "outputSchema": {
-                    "value": null
-                  },
-                  "customHTML": {
-                    "value": "<div class=\"end-user-nano\">\n  <div\n    class=\"bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto\">\n    <div style=\"max-width: 400px; min-width: 400px; width: 100%\">\n      <div class=\"card shadow mb-5\">\n        <div class=\"card-body p-5 d-flex flex-column\">\n          <img class=\"companyLogo align-self-center mb-5\" src=\"{{global.variables.companyLogo}}\" alt=\"{{global.variables.companyName}}\" />\n\n        {{#if title}}\n          <h1 class=\"text-center mb-4\">{{title}}</h1>\n          {{/if}}\n\n          {{#if textOne}}\n          <p class=\"text-muted text-center\">{{textOne}}</p>\n          {{/if}}\n\n          {{#if textTwo}}\n          <p class=\"text-muted text-center\">{{textTwo}}</p>\n          {{/if}}\n\n          {{#if buttonLabel}}\n          <div class=\"d-flex flex-column\">\n            <button data-id=\"next-button\" type=\"submit\" class=\"btn btn-primary mb-3\" data-skcomponent=\"skbutton\"\n             data-skbuttontype=\"next-event\"  data-skbuttonvalue=\"NEXT\" id=\"btnNext\">\n                {{buttonLabel}}\n            </button>\n          </div>\n          {{/if}}\n\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
-                  },
-                  "customCSS": {
-                    "value": ""
-                  },
-                  "customScript": {
-                    "value": ""
-                  },
-                  "validationRules": {
-                    "value": []
-                  },
-                  "title": {
-                    "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"Error\"\n      }\n    ]\n  }\n]"
-                  },
-                  "textOne": {
-                    "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"Unhandled reponse from Prefill request\"\n      }\n    ]\n  }\n]"
-                  },
-                  "formFieldsList": {
-                    "value": [
-                      {
-                        "preferredControlType": "textField",
-                        "preferredDataType": "string",
-                        "propertyName": "buttonValue"
-                      }
-                    ]
-                  },
-                  "nodeTitle": {
-                    "value": "Error Message"
-                  },
-                  "nodeDescription": {
-                    "value": "Render a custom message"
-                  },
-                  "textTwo": {
-                    "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"kyxstart.svg\",\n        \"url\": \"rawResponse\",\n        \"data\": \"{{local.bjknlhqrhn.payload.output.rawResponse}}\",\n        \"tooltip\": \"{{local.bjknlhqrhn.payload.output.rawResponse}}\",\n        \"children\": [\n          {\n            \"text\": \"rawResponse\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
-                  },
-                  "backgroundColor": {
-                    "value": "#ffc8c1ff"
-                  }
-                },
-                "idUnique": "8rsda1hj30"
-              },
-              "position": {
-                "x": 2374,
-                "y": 3810
-              },
-              "group": "nodes",
-              "removed": false,
-              "selected": false,
-              "selectable": true,
-              "locked": false,
-              "grabbable": true,
-              "pannable": false,
-              "classes": ""
-            },
-            {
-              "data": {
                 "id": "0c1jrnoh31",
                 "nodeType": "CONNECTION",
                 "connectionId": "2581eb287bb1d9bd29ae9886d675f89f",
@@ -6886,7 +6794,7 @@
                 "type": "trigger",
                 "properties": {
                   "code": {
-                    "value": "/**\n * Build KYXStart payload based on provided phone inputs.\n *\n * If a test phone number is provided, it takes precedence and enables test mode.\n * Otherwise, the primary phone number is used.\n *\n * @param {Object} input\n * @param {Object} input.params - Incoming parameters.\n * @param {string} [input.params.phone] - Primary phone number.\n * @param {string} [input.params.testPhone] - Optional test phone number override.\n *\n * @returns {Promise<Object>} Object containing:\n *   {\n *     kyxstartPayload: Object\n *   }\n */\nmodule.exports = async ({ params }) => {\n  console.log('params: ', params);\n\n  const { phone, testPhone } = params;\n\n  const isTestMode = Boolean(testPhone);\n  const resolvedPhone = testPhone || phone;\n\n  const kyxstartPayload = {\n    testMode: isTestMode,\n    checks: isTestMode ? ['prefill'] : ['prefillExpress'],\n    country: 'USA',\n    userConsent: true,\n    clientReference: 'test4',\n    phoneNumber: resolvedPhone,\n    ...(isTestMode ? {} : { phoneLimit: 1 })\n  };\n\n  return {\n    kyxstartPayload: kyxstartPayload\n  };\n};"
+                    "value": "/**\n * Build KYXStart payload based on provided phone inputs.\n *\n * If a test phone value is provided, it takes precedence and enables test mode.\n * The testPhone value may contain both phone number and last name, separated by \"|\":\n *   \"4089310002|Johnson\"\n *\n * Otherwise, the primary phone number is used.\n *\n * @param {Object} input\n * @param {Object} input.params - Incoming parameters.\n * @param {string} [input.params.phone] - Primary phone number.\n * @param {string} [input.params.testPhone] - Optional test override in the format \"phone|lastName\".\n *\n * @returns {Promise<Object>} Object containing:\n *   {\n *     kyxstartPayload: Object\n *   }\n */\nmodule.exports = async ({ params }) => {\n  console.log('params: ', params);\n\n  const { phone, testPhone } = params;\n\n  const isTestMode = Boolean(testPhone);\n\n  let resolvedPhone = phone;\n  let resolvedLastName;\n\n  if (isTestMode) {\n    const [testPhoneNumber, testLastName] = testPhone\n      .split('|')\n      .map(value => value.trim());\n\n    resolvedPhone = testPhoneNumber;\n    resolvedLastName = testLastName;\n  }\n\n  const kyxstartPayload = {\n    testMode: isTestMode,\n    clientReference: 'test4',\n    checks: isTestMode ? ['prefill'] : ['prefillExpress'],\n    userConsent: true,\n    country: 'USA',\n    phoneNumber: resolvedPhone,\n    ...(resolvedLastName ? { lastName: resolvedLastName } : {}),\n    ...(isTestMode ? {} : { phoneLimit: 1 })\n  };\n\n  return {\n    kyxstartPayload\n  };\n};"
                   },
                   "variableInputList": {
                     "value": [
@@ -6932,6 +6840,9 @@
                 "properties": {
                   "bjknlhqrhn": {
                     "value": "allTriggersTrue"
+                  },
+                  "v08d75n7tl": {
+                    "value": "anyTriggersFalse"
                   }
                 }
               },
@@ -7133,7 +7044,7 @@
                 "type": "trigger",
                 "properties": {
                   "code": {
-                    "value": "// Sample users to display when runnning in registration test mode\nmodule.exports = async ({params}) => {\n\tconst sampleUsers = [\n\t\t{\n\t\t\tfirstName: \"Jane\",\n\t\t\tlastName: \"Smith\",\n\t\t\tphone: \"4089310001\",\n\t\t\tphoneFormatted: \"+1(408) 931-0001\",\n\t\t\tphoto: \"https://gmorgan-ping.github.io/kyxstart-poc/users/jane-smith.jpg\"\n\t\t},\n\t\t{\n\t\t\tfirstName: \"Micheal\",\n\t\t\tlastName: \"Johnson\",\n\t\t\tphone: \"4089310002\",\n\t\t\tphoneFormatted: \"+1(408) 931-0002\",\n\t\t\tphoto: \"https://gmorgan-ping.github.io/kyxstart-poc/users/michael-johnson.jpg\"\n\t\t},\n\n\t]\n\treturn {'sampleUsers': sampleUsers}\n}"
+                    "value": "// Sample users to display when runnning in registration test mode\nmodule.exports = async ({params}) => {\n\tconst sampleUsers = [\n\t\t{\n\t\t\tfirstName: \"Jane\",\n\t\t\tlastName: \"Smith\",\n\t\t\tphone: \"4089310001\",\n\t\t\tphoneFormatted: \"+1(408) 931-0001\",\n\t\t\tphoto: \"https://gmorgan-ping.github.io/kyxstart-poc/users/jane-smith.jpg\"\n\t\t},\n\t\t{\n\t\t\tfirstName: \"Micheal\",\n\t\t\tlastName: \"Johnson\",\n\t\t\tphone: \"4089310002\",\n\t\t\tphoneFormatted: \"+1(408) 931-0002\",\n\t\t\tphoto: \"https://gmorgan-ping.github.io/kyxstart-poc/users/michael-johnson.jpg\"\n\t\t},\n\t\t{\n\t\t\tfirstName: \"John\",\n\t\t\tlastName: \"Doe\",\n\t\t\tphone: \"4089310003\",\n\t\t\tphoneFormatted: \"+1(408) 931-0003\",\n\t\t\tphoto: \"https://gmorgan-ping.github.io/kyxstart-poc/users/john-doe.jpg\"\n\t\t},\n\n\t]\n\treturn {'sampleUsers': sampleUsers}\n}"
                   },
                   "outputSchema": {
                     "value": "{\n\t\"output\": {\n\t\t\"type\": \"object\",\n\t\t\"properties\": {\n\t\t\t\"sampleUsers\": {\n\t\t\t\t\"type\": \"object\"\n\t\t\t}\n\t\t}\n\t}\n}"
@@ -7173,7 +7084,7 @@
                 "type": "trigger",
                 "properties": {
                   "customHTML": {
-                    "value": "<div class=\"end-user-nano\">\n  <div\n    class=\"bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto\"\n  >\n    <!-- Constrain card width -->\n    <div style=\"max-width: 400px; min-width: 400px; width: 100%\">\n      <div class=\"card shadow mb-2\">\n        <!-- Main content region -->\n        <main aria-labelledby=\"title\">\n          <div class=\"card-body p-5 d-flex flex-column\">\n            <!-- Company logo -->\n            <img\n              class=\"companyLogo align-self-center mb-5\"\n              src=\"{{global.variables.companyLogo}}\"\n              alt=\"{{global.variables.companyName}}\"\n            />\n\n            <!-- Header / title -->\n            {{#if title}}\n              <h1 id=\"title\" class=\"text-center mb-4\">{{title}}</h1>\n            {{/if}}\n\n            <!-- Primary supporting text -->\n            {{#if textOne}}\n              <p class=\"text-muted text-center mb-3\">{{textOne}}</p>\n            {{/if}}\n\n            <!-- Secondary supporting text -->\n            {{#if textTwo}}\n              <p class=\"text-muted text-center mb-3\">{{textTwo}}</p>\n            {{/if}}\n\n            <!-- Account list -->\n            <div class=\"d-flex flex-column gap-3\">\n              {{#each sampleUsers}}\n                <button\n                  class=\"btn btn-outline-light w-100 d-flex align-items-center position-relative\"\n                  id=\"account-button-{{@index}}\"\n                  data-skcomponent=\"skbutton\"\n                  data-skbuttontype=\"next-event\"\n                  data-skbuttonvalue=\"{{phone}}\"\n                  style=\"padding-right: 3rem;\"\n                >\n                  <!-- Left content -->\n                  <div class=\"flex-grow-1 d-flex align-items-center gap-4 min-w-0\">\n                      <!-- User Photo -->\n                      <img\n                        {{#if photo}}\n                          src=\"{{photo}}\"\n                        {{else}}\n                          src=\"https://gmorgan-ping.github.io/kyxstart-poc/logos/default.png\"\n                        {{/if}}\n                        alt=\"{{bankName}} logo\"\n                        class=\"img-fluid account-bank-logo rounded-circle\" \n                        style=\"width: 40px; height: 40px; object-fit: cover;\"\n                      />\n\n                      <div class=\"d-flex flex-column text-start gap-1 min-w-0\">\n                        <div class=\"fw-semibold text-primary text-truncate\">\n                             {{firstName}} {{lastName}}\n                        </div>\n                           <div class=\"text-dark\">\n                              {{phoneFormatted}}\n                          </div>\n                      </div>\n                  </div>\n                </button>\n              {{/each}}\n            </div>\n\n            <!-- Back / return to dashboard -->\n            <div class=\"d-flex flex-column mt-3\">\n              <button\n                data-id=\"button\"\n                class=\"btn btn-link\"\n                data-skcomponent=\"skbutton\"\n                data-skbuttontype=\"next-event\"\n                id=\"btnBack\"\n                data-skbuttonvalue=\"CANCEL\"\n              >\n                {{backButtonLabel}}\n              </button>\n            </div>\n          </div>\n        </main>\n      </div>\n    </div>\n  </div>\n</div>\n"
+                    "value": "<div class=\"end-user-nano\">\n  <div\n    class=\"bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto\"\n  >\n    <!-- Constrain card width -->\n    <div style=\"max-width: 400px; min-width: 400px; width: 100%\">\n      <div class=\"card shadow mb-2\">\n        <!-- Main content region -->\n        <main aria-labelledby=\"title\">\n          <div class=\"card-body p-5 d-flex flex-column\">\n            <!-- Company logo -->\n            <img\n              class=\"companyLogo align-self-center mb-5\"\n              src=\"{{global.variables.companyLogo}}\"\n              alt=\"{{global.variables.companyName}}\"\n            />\n\n            <!-- Header / title -->\n            {{#if title}}\n              <h1 id=\"title\" class=\"text-center mb-4\">{{title}}</h1>\n            {{/if}}\n\n            <!-- Primary supporting text -->\n            {{#if textOne}}\n              <p class=\"text-muted text-center mb-3\">{{textOne}}</p>\n            {{/if}}\n\n            <!-- Secondary supporting text -->\n            {{#if textTwo}}\n              <p class=\"text-muted text-center mb-3\">{{textTwo}}</p>\n            {{/if}}\n\n            <!-- Account list -->\n            <div class=\"d-flex flex-column gap-3\">\n              {{#each sampleUsers}}\n                <button\n                  class=\"btn btn-outline-light w-100 d-flex align-items-center position-relative\"\n                  id=\"account-button-{{@index}}\"\n                  data-skcomponent=\"skbutton\"\n                  data-skbuttontype=\"next-event\"\n                  data-skbuttonvalue=\"{{phone}}|{{lastName}}\"\n                  style=\"padding-right: 3rem;\"\n                >\n                  <!-- Left content -->\n                  <div class=\"flex-grow-1 d-flex align-items-center gap-4 min-w-0\">\n                      <!-- User Photo -->\n                      <img\n                        {{#if photo}}\n                          src=\"{{photo}}\"\n                        {{else}}\n                          src=\"https://gmorgan-ping.github.io/kyxstart-poc/logos/default.png\"\n                        {{/if}}\n                        alt=\"{{bankName}} logo\"\n                        class=\"img-fluid account-bank-logo rounded-circle\" \n                        style=\"width: 40px; height: 40px; object-fit: cover;\"\n                      />\n\n                      <div class=\"d-flex flex-column text-start gap-1 min-w-0\">\n                        <div class=\"fw-semibold text-primary text-truncate\">\n                             {{firstName}} {{lastName}}\n                        </div>\n                           <div class=\"text-dark\">\n                              {{phoneFormatted}}\n                          </div>\n                      </div>\n                  </div>\n                </button>\n              {{/each}}\n            </div>\n\n            <!-- Back / return to dashboard -->\n            <div class=\"d-flex flex-column mt-3\">\n              <button\n                data-id=\"button\"\n                class=\"btn btn-link\"\n                data-skcomponent=\"skbutton\"\n                data-skbuttontype=\"next-event\"\n                id=\"btnBack\"\n                data-skbuttonvalue=\"CANCEL\"\n              >\n                {{backButtonLabel}}\n              </button>\n            </div>\n          </div>\n        </main>\n      </div>\n    </div>\n  </div>\n</div>\n"
                   },
                   "formFieldsList": {
                     "value": [
@@ -7351,9 +7262,91 @@
               "grabbable": true,
               "pannable": false,
               "classes": ""
+            },
+            {
+              "data": {
+                "id": "6vs4e8uihx",
+                "nodeType": "CONNECTION",
+                "connectionId": "867ed4363b2bc21c860085ad2baa817d",
+                "connectorId": "httpConnector",
+                "name": "Http",
+                "label": "Http",
+                "status": "configured",
+                "capabilityName": "customHtmlMessage",
+                "type": "trigger",
+                "properties": {
+                  "messageTitle": {
+                    "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"Unhandled Resposne\"\n      }\n    ]\n  }\n]"
+                  },
+                  "message": {
+                    "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"kyxstart.svg\",\n        \"url\": \"rawResponse\",\n        \"data\": \"{{local.bjknlhqrhn.payload.output.rawResponse}}\",\n        \"tooltip\": \"{{local.bjknlhqrhn.payload.output.rawResponse}}\",\n        \"children\": [\n          {\n            \"text\": \"rawResponse\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                  }
+                }
+              },
+              "position": {
+                "x": 2368,
+                "y": 3868.5
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
+            },
+            {
+              "data": {
+                "id": "v08d75n7tl",
+                "nodeType": "CONNECTION",
+                "connectionId": "867ed4363b2bc21c860085ad2baa817d",
+                "connectorId": "httpConnector",
+                "name": "Http",
+                "label": "Http",
+                "status": "configured",
+                "capabilityName": "customHtmlMessage",
+                "type": "trigger",
+                "properties": {
+                  "message": {
+                    "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"functions.svg\",\n        \"url\": \"kyxstartPayload\",\n        \"data\": \"{{local.3j1gruvvoi.payload.output.kyxstartPayload}}\",\n        \"tooltip\": \"{{local.3j1gruvvoi.payload.output.kyxstartPayload}}\",\n        \"children\": [\n          {\n            \"text\": \"kyxstartPayload\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                  }
+                }
+              },
+              "position": {
+                "x": 2114,
+                "y": 3881.5
+              },
+              "group": "nodes",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": false,
+              "classes": ""
             }
           ],
           "edges": [
+            {
+              "data": {
+                "id": "849co1qf0l",
+                "source": "8p5c30maps",
+                "target": "3j2rx8k5f6"
+              },
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "group": "edges",
+              "removed": false,
+              "selected": false,
+              "selectable": true,
+              "locked": false,
+              "grabbable": true,
+              "pannable": true,
+              "classes": ""
+            },
             {
               "data": {
                 "id": "r9z01ty6o3",
@@ -7624,9 +7617,9 @@
             },
             {
               "data": {
-                "id": "yu5bnxqnqx",
-                "source": "y1ddydbobt",
-                "target": "vh7nlqxpit"
+                "id": "cmlfi7v9in",
+                "source": "3j2rx8k5f6",
+                "target": "rjelidknrt"
               },
               "position": {
                 "x": 0,
@@ -10359,9 +10352,9 @@
             },
             {
               "data": {
-                "id": "849co1qf0l",
-                "source": "8p5c30maps",
-                "target": "3j2rx8k5f6"
+                "id": "bfqvq6lne6",
+                "source": "y1ddydbobt",
+                "target": "6vs4e8uihx"
               },
               "position": {
                 "x": 0,
@@ -10378,9 +10371,9 @@
             },
             {
               "data": {
-                "id": "cmlfi7v9in",
-                "source": "3j2rx8k5f6",
-                "target": "rjelidknrt"
+                "id": "oajmmf9fk2",
+                "source": "u5mjgq0ji5",
+                "target": "v08d75n7tl"
               },
               "position": {
                 "x": 0,
@@ -10424,7 +10417,7 @@
         }
       ],
       "flowColor": "#CACED3",
-      "savedDate": 1775821138935,
+      "savedDate": 1778020127012,
       "variables": [
         {
           "context": "flowInstance",
@@ -10442,7 +10435,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "companyName##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -10460,7 +10453,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "companyLogo##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -10477,7 +10470,7 @@
           "type": "property",
           "visibility": "private",
           "name": "flowConfig##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -10494,7 +10487,7 @@
           "type": "property",
           "visibility": "private",
           "name": "enableRegistrationTestMode##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -10511,12 +10504,12 @@
           "type": "property",
           "visibility": "private",
           "name": "sampleUsers##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         }
       ]
     },
     {
-      "companyId": "",
+      "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
       "authTokenExpireIds": [],
       "connectorIds": [
         "annotationConnector",
@@ -17356,7 +17349,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "webAuthnSupport##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17374,7 +17367,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "rpid##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17391,7 +17384,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "p1DeviceAuthenticationId##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17409,7 +17402,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "ORIGIN##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17427,7 +17420,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "companyLogo##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17445,7 +17438,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "companyName##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17463,7 +17456,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "maskedUsableDevices##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17481,7 +17474,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "canChangeDevice##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17499,7 +17492,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "origin##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -17517,12 +17510,12 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "publicKeyCredentialRequestOptions##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         }
       ]
     },
     {
-      "companyId": "",
+      "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
       "authTokenExpireIds": [],
       "connectorIds": [
         "annotationConnector",
@@ -17537,7 +17530,7 @@
         "errorConnector"
       ],
       "createdDate": 1777057491331,
-      "currentVersion": 1,
+      "currentVersion": 1019,
       "customerId": "f3e47d945ae971a4b4142ec75012d155",
       "description": "",
       "flowStatus": "enabled",
@@ -17567,7 +17560,7 @@
       "isInputSchemaSaved": true,
       "isOutputSchemaSaved": false,
       "name": "KYXStart Dashboard",
-      "publishedVersion": 1,
+      "publishedVersion": 1019,
       "settings": {
         "csp": "worker-src 'self' blob:; script-src 'self' https://cdn.jsdelivr.net https://code.jquery.com https://devsdk.singularkey.com http://cdnjs.cloudflare.com 'unsafe-inline' 'unsafe-eval';",
         "enforcedCsp": "script-src 'nonce-rAnd0m' 'strict-dynamic' 'unsafe-eval' https: http:; object-src 'none'; base-uri 'none'; frame-ancestors 'none';",
@@ -17592,7 +17585,7 @@
       "timeouts": "null",
       "updatedDate": 1777057494240,
       "flowId": "9d41c101a87eb2d5fd31cb621a28c0ca",
-      "versionId": 1,
+      "versionId": 1019,
       "graphData": {
         "elements": {
           "nodes": [
@@ -35858,7 +35851,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "companyLogo##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -35876,7 +35869,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "companyName##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -35893,7 +35886,7 @@
           "type": "property",
           "visibility": "private",
           "name": "testBankAccounts##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -35910,7 +35903,7 @@
           "type": "property",
           "visibility": "private",
           "name": "enableTestAccounts##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -35929,7 +35922,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "userAccounts##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -35948,7 +35941,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "userPayees##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -35967,7 +35960,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "p1UserId##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -35986,7 +35979,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "p1Username##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -36005,7 +35998,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "activeAccount##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -36022,7 +36015,7 @@
           "type": "property",
           "visibility": "private",
           "name": "testCreditCards##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -36041,7 +36034,7 @@
           "updatedDate": 1771565659441,
           "visibility": "private",
           "name": "transactions##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -36058,7 +36051,7 @@
           "type": "property",
           "visibility": "private",
           "name": "requiredVerificationLevel##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         },
         {
           "context": "flowInstance",
@@ -36075,7 +36068,7 @@
           "type": "property",
           "visibility": "private",
           "name": "accountVerificationTTLDays##SK##flowInstance",
-          "companyId": ""
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d"
         }
       ],
       "connections": [
@@ -36130,7 +36123,7 @@
           },
           "updatedDate": 1776873426831,
           "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36197,7 +36190,7 @@
           },
           "updatedDate": 1776875669796,
           "connectionId": "6c24d99c6c3d708391c613fbb2bfa82c",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36264,7 +36257,7 @@
           },
           "updatedDate": 1776873426831,
           "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36331,7 +36324,7 @@
           },
           "updatedDate": 1776875669796,
           "connectionId": "6c24d99c6c3d708391c613fbb2bfa82c",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36395,7 +36388,7 @@
           },
           "updatedDate": 1773079420055,
           "connectionId": "4b0b7902eca1771c5d217daece15a2d8",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36462,7 +36455,7 @@
           },
           "updatedDate": 1776873426831,
           "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36529,7 +36522,7 @@
           },
           "updatedDate": 1776873426831,
           "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36593,7 +36586,7 @@
           },
           "updatedDate": 1773079420055,
           "connectionId": "4b0b7902eca1771c5d217daece15a2d8",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36660,7 +36653,7 @@
           },
           "updatedDate": 1776886555046,
           "connectionId": "76a011e2516afcd5214afa2db21035dd",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36727,7 +36720,7 @@
           },
           "updatedDate": 1776886555046,
           "connectionId": "76a011e2516afcd5214afa2db21035dd",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36794,7 +36787,7 @@
           },
           "updatedDate": 1776875669796,
           "connectionId": "6c24d99c6c3d708391c613fbb2bfa82c",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36861,7 +36854,7 @@
           },
           "updatedDate": 1776886555046,
           "connectionId": "76a011e2516afcd5214afa2db21035dd",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36928,7 +36921,7 @@
           },
           "updatedDate": 1776873426831,
           "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -36995,7 +36988,7 @@
           },
           "updatedDate": 1776873426831,
           "connectionId": "6b114ef363dbc484666fd8a5a69f197e",
-          "companyId": "",
+          "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
           "metadata": {
             "colors": {
               "canvas": "#E3F0FF",
@@ -37014,7 +37007,7 @@
       ]
     }
   ],
-  "companyId": "",
+  "companyId": "af8a50b1-d359-40bf-8a6f-86181d98f57d",
   "customerId": "f3e47d945ae971a4b4142ec75012d155",
   "forms": {}
 }
